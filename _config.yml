@@ -17,7 +17,7 @@ lang: en
 title: Prompt AI Document
 head: Document
 description: How to use Prompt AI to solve and promote your business
-baseurl: "/promptgptdialog" # the subpath of your site, e.g. /blog
+baseurl: "/promptdialog-gpt" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
