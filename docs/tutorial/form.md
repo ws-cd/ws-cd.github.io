@@ -4,7 +4,7 @@ title: Form
 parent: Developer's Guide
 nav_order: 7
 ---
-In PromptDialog, Form is a component that collects a set of information from the user. The information will be stored in slots. In the following example, the bot collects the information of fruit type and quantity from the user, and confirm with the user after completion. This information collection conversation can be implemented by form with two required slots: fruit_type and fruit_quantity. 
+In PromptDialog, Form is a component that collects a set of information from the user. The information will be stored in slots. In the following example, the bot collects the information of fruit type and quantity from the user, and confirm with the user after completion. This information collection conversation can be implemented by form with two required slots: `fruit_type` and `fruit_quantity`. 
 
 ```text
 Bot : Hello!
@@ -34,16 +34,16 @@ Next, we will introduce how to create the example of user-ordered fruit mentione
 ![img.png](/assets/images/form_fruit_create_flow.jpg)
 
 Next, we create a `Bot` node to say hello and a `User` node to show the intent to buy fruit
-![img_1.png](img_1.png)
+![img_1.png](form_fruit_create_flow-1.png)
 
 ## Create fruit form
 Click the `User` node and select `Form` in the pop-up menu
-![img.png](img.png)
+![img.png](form_fruit_create_flow-2.png)
 The name of the Form can be set according to the function, here we fill in `Fruit order`
-![img_3.png](img_3.png)
+![img_3.png](form_fruit_create_flow-3.png)
 
 Three pieces of information need to be completed after creating `fruit order`
-![img_4.png](img_4.png)
+![img_4.png](form_fruit_create_flow-4.png)
 
 |  Name        | Required | Desc                                                   |
 |--------------|----------|--------------------------------------------------------|
@@ -56,17 +56,17 @@ Three pieces of information need to be completed after creating `fruit order`
 We need to collect `fruit_type` and `fruit_quantity` from users through Slots, and then explain in detail how to add `fruit_type`
 
 Click on the `Slots` node and select `Add Slot` from the pop-up menu
-![img_5.png](img_5.png)
+![img_5.png](form_fruit_create_flow-5.png)
 
 In the pop-up Slot window, we need to pay attention to the input `Slot Name` and `Slot Question`, here fill in the name of the Slot `fruit_type` (enter the name and press Enter to create) and fill a sentence to prompt the user to enter the information in the question.
 
-![img_6.png](img_6.png)
+![img_6.png](form_fruit_create_flow-6.png)
 
 So far, the `fruit_type` slot has been created.
-![img_7.png](img_7.png)
+![img_7.png](form_fruit_create_flow-7.png)
 
 Add `fruit_quantity` slot like this:
-![img_9.png](img_9.png)
+![img_9.png](form_fruit_create_flow-8.png)
 
 ## Abort
 During the ordering process, the user may exit the conversation
@@ -74,12 +74,12 @@ During the ordering process, the user may exit the conversation
 
 ## Complete
 The `Complete` node handles the completion of the collection form, here we confirm the order to the user
-![img_10.png](img_10.png)
+![img_10.png](form_fruit_create_flow-9.png)
 
 ## The complete flow diagram is as follows:
-![img_11.png](img_11.png)
-![img_12.png](img_12.png)
-![img_13.png](img_13.png)
+![img_11.png](form_fruit_create_flow-10.png)
+![img_12.png](form_fruit_create_flow-11.png)
+![img_13.png](form_fruit_create_flow-12.png)
 
 ---
 
