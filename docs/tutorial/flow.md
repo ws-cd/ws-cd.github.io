@@ -13,7 +13,7 @@ Click `Flows` in the left navigation pane to add a dialog new flow.  Enter the f
 ## Add a user utterance node
 After creating a new dialog flow, it will display the flow window. Click the root node of the flow and here we click `Add User Node`.
 
-![flow_add_user_node.jpg](/assets/images/tutorial/flow_add_user_node.jpg)
+![flow_add_user_node.jpg](/assets/images/tutorial/flow_add_u0ser_node.jpg)
 
 ## Edit a user utterance node
 Click the user utterance; the editing pane will pop up on the right. It is expected that multiple utterances are needed so that the user intent can be classified correctly. 
