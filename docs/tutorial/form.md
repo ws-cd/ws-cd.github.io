@@ -11,7 +11,7 @@ Bot : Hello!
       What can i do for you?
 User: Hi there! I'd like to order some fruits
 
-# Collect the type and count of fruit ordered by the user through the Form
+# Collect the type and quantity of fruit ordered by the user through the Form
 Bot : Perfect! What kinds of fruits would you like to order?
 User: I'd like some apples, please
 Bot : Great! And how much apples would you like to order?
@@ -53,7 +53,7 @@ Three pieces of information need to be completed after creating `fruit order`
 | Complete      |    Yes   | After the form runs successfully                       |
   
 ## Slots
-We need to collect `fruit_type` and `count` from users through Slots, and then explain in detail how to add `fruit_type`
+We need to collect `fruit_type` and `fruit_quantity` from users through Slots, and then explain in detail how to add `fruit_type`
 
 Click on the `Slots` node and select `Add Slot` from the pop-up menu
 ![img_5.png](img_5.png)
@@ -94,7 +94,7 @@ Bot : Hello!
 User: Hi there! I'd like to order some fruits
 
 Bot : Perfect! What kinds of fruits would you like to order?
-# count and fruit type in one sentence
+# quantity and fruit type in one sentence
 User: Let's go with 5 apples
 
 Bot : Perfect! I have your order 5 apples.
