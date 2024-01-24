@@ -49,9 +49,9 @@ Four pieces of information need to be completed after creating `Fruit order`
 
 |  Name        | Required | Desc                                                   |
 |--------------|----------|--------------------------------------------------------|
-| Slots        |    Yes   | slots that need to be collected                        |
+| Slots        |    Yes   | Slots that need to be collected                        |
 | Functions   |    No    | - |
-| Abort      |    No    | Possible problems filling the form or exiting the form |
+| Abort      |    No    | After the from is interrupted  |
 | Complete      |    Yes   | After the form runs successfully                       |
   
 ## Slots
