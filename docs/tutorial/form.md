@@ -61,7 +61,7 @@ Click on the `Slots` node and select `Add Slot` from the pop-up menu
 In the pop-up Slot window, we need to pay attention to the input `Slot Name`、`Slot Question` and `Description`
 - Slot Name     : Fill in the name of the Slot `fruit_type` (enter the name and press Enter to create)
 - Slot Question : A sentence to prompt the user to enter the information in the question.
-- Description   : The prompt tell GPT how to fill the slot value from the user utterance.
+- Description   : The Prompt used by GPT tells GPT how to extract Slot from user input.
 
 ![img_6.png](/assets/images/tutorial/form/form_fruit_create_flow-6.png)
 
