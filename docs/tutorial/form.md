@@ -42,7 +42,7 @@ Click the `User` node and select `Form` in the pop-up menu
 The name of the Form can be set according to the function, here we fill in `Fruit order`
 ![img_3.png](/assets/images/tutorial/form/form_fruit_create_flow-3.png)
 
-Three pieces of information need to be completed after creating `fruit order`
+Four pieces of information need to be completed after creating `fruit order`
 ![img_4.png](/assets/images/tutorial/form/form_fruit_create_flow-4.png)
 
 |  Name        | Required | Desc                                                   |
@@ -58,7 +58,10 @@ We need to collect `fruit_type` and `fruit_quantity` from users through Slots, a
 Click on the `Slots` node and select `Add Slot` from the pop-up menu
 ![img_5.png](/assets/images/tutorial/form/form_fruit_create_flow-5.png)
 
-In the pop-up Slot window, we need to pay attention to the input `Slot Name` and `Slot Question`, here fill in the name of the Slot `fruit_type` (enter the name and press Enter to create) and fill a sentence to prompt the user to enter the information in the question.
+In the pop-up Slot window, we need to pay attention to the input `Slot Name`、`Slot Question` and `Description`
+- Slot Name     : Fill in the name of the Slot `fruit_type` (enter the name and press Enter to create)
+- Slot Question : A sentence to prompt the user to enter the information in the question.
+- Description   : The prompt tell GPT how to fill the slot value from the user utterance.
 
 ![img_6.png](/assets/images/tutorial/form/form_fruit_create_flow-6.png)
 
@@ -101,3 +104,5 @@ Bot : Perfect! I have your order 5 apples.
 User: Thanks
 Bot : You are welcome! I'll prepare your order with 5 apples, fell free to ask!
 ```
+
+## How to write prompt?
