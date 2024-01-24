@@ -39,7 +39,7 @@ Next, we create a `Bot` node to say hello and a `User` node to show the intent t
 ## Create fruit form
 Click the `User` node and select `Form` in the pop-up menu
 ![img.png](/assets/images/tutorial/form/form_fruit_create_flow-2.png)
-There are two input field:
+There are two input fields:
 - Name       : The name of the Form can be set according to the function, here we fill in `Fruit order`.
 - Description: The Prompt used by GPT tells GPT what the form need to do.
 ![img_3.png](/assets/images/tutorial/form/form_fruit_create_flow-3.png)
@@ -50,7 +50,7 @@ Four pieces of information need to be completed after creating `Fruit order`
 |  Name        | Required | Desc                                                   |
 |--------------|----------|--------------------------------------------------------|
 | Slots        |    Yes   | slots that need to be collected                        |
-| Functions   |    No    | Possible problems filling the form or exiting the form |
+| Functions   |    No    | - |
 | Abort      |    No    | Possible problems filling the form or exiting the form |
 | Complete      |    Yes   | After the form runs successfully                       |
   
