@@ -108,3 +108,4 @@ Bot : You are welcome! I'll prepare your order with 5 apples, fell free to ask!
 ```
 
 ## How to write prompt?
+<!-- Form中对应部分Prompt 如何写？ Function 如何写？ -->
