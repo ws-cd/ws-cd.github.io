@@ -15,7 +15,7 @@ The PromptDialog implementation is done by Docker, including two images .
 
 |  Image |         Description         | 
 |:------|:-----------------------------|
-| promptai/zbotai:release    |    AI model       | 
+| promptai/zbotai:release.llm    |    AI model       | 
 | promptai/zbot-aio:release  | PromptDialog  service framework     |
 
 
@@ -25,9 +25,6 @@ OS         :Linux/Mac OS
 RAM        :At least 8GB
 Docker Env :20.10.6 or newer
 Disk Space :At least 32GB available
-
-Optional: 
-GPU        :CUDA 11.7 or newer and GPU Containers Runtime 1.11.0 or newer
 ```
 
 ## Installation Command
@@ -35,7 +32,7 @@ Run following cmd in your terminal.
 ```shell
 curl -o install.sh 'https://raw.githubusercontent.com/PromptAI/homepage/main/scripts/install_en.sh' && chmod +x install.sh && ./install.sh
 ```
-*Prompt AI's docker images total 25 GB, and the installation time depends on your network. First-time installation usually takes 10 to 30 minutes.*
+*Prompt AI's docker images total 15 GB, and the installation time depends on your network. First-time installation usually takes 10 to 30 minutes.*
 
 ### Finish
 If system is ready you will see the auth info:
