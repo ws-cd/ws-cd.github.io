@@ -30,22 +30,21 @@ There are other similar scenarios that can be handled by Form:
 ## How to use Form?
 Next, we will introduce how to create the example of user-ordered fruit mentioned above.
 
-### Create `Fruit`Dialog flow
-![img.png](/assets/images/form_fruit_create_flow.jpg)
+### Create Fruit Dialog flow
+![form0.png](/assets/images/form0.png)
 
 Next, we create a `Bot` node to say hello and a `User` node to show the intent to buy fruit
-![img_1.png](/assets/images/tutorial/form/form_fruit_create_flow-1.png)
+![form1.png](/assets/images/form1.png)
 
 ## Create fruit form
-Click the `User` node and select `Form` in the pop-up menu
-![img.png](/assets/images/tutorial/form/form_fruit_create_flow-2.png)
-There are two input fields:
-- Name       : The name of the Form can be set according to the function, here we fill in `Fruit order`.
+Click the `User` node and select `Form` in the pop-up menu and click `Add GPT Form Node`.There are two input fields:
+- Name       : The name of the Form can be set according to the function, here we fill in `Fruit Order`.
 - Description: The Prompt used by GPT tells GPT what the form need to do.
-![img_3.png](/assets/images/tutorial/form/form_fruit_create_flow-3.png)
 
-Four pieces of information need to be completed after creating `Fruit order`
-![img_4.png](/assets/images/tutorial/form/form_fruit_create_flow-4.png)
+![form2.png](/assets/images/form2.png)
+
+Four pieces of information need to be completed after creating `Fruit Order`
+![form3.png](/assets/images/form3.png)
 
 |  Name        | Required | Desc                                                   |
 |--------------|----------|--------------------------------------------------------|
@@ -58,20 +57,20 @@ Four pieces of information need to be completed after creating `Fruit order`
 We need to collect `fruit_type` and `fruit_quantity` from users through Slots, and then explain in detail how to add `fruit_type`
 
 Click on the `Slots` node and select `Add Slot` from the pop-up menu
-![img_5.png](/assets/images/tutorial/form/form_fruit_create_flow-5.png)
+![form4.png](/assets/images/form4.png)
 
 In the pop-up Slot window, we need to pay attention to the input `Slot Name`、`Slot Question` and `Description`
 - Slot Name     : Fill in the name of the Slot `fruit_type` (enter the name and press Enter to create)
 - Slot Question : A sentence to prompt the user to enter the information in the question.
 - Description   : The Prompt used by GPT tells GPT how to extract Slot from user input.
 
-![img_6.png](/assets/images/tutorial/form/form_fruit_create_flow-6.png)
+![form5.png](/assets/images/form5.png)
 
 So far, the `fruit_type` slot has been created.
-![img_7.png](/assets/images/tutorial/form/form_fruit_create_flow-7.png)
+![form6.png](/assets/images/form6.png)
 
 Add `fruit_quantity` slot like this:
-![img_9.png](/assets/images/tutorial/form/form_fruit_create_flow-8.png)
+![form7.png](/assets/images/form7.png)
 
 ## Abort
 During the ordering process, the user may exit the conversation
@@ -79,12 +78,14 @@ During the ordering process, the user may exit the conversation
 
 ## Complete
 The `Complete` node handles the completion of the collection form, here we confirm the order to the user
-![img_10.png](/assets/images/tutorial/form/form_fruit_create_flow-9.png)
+![form8.png](/assets/images/form8.png)
 
 ## The complete flow diagram is as follows:
-![img_11.png](/assets/images/tutorial/form/form_fruit_create_flow-10.png)
-![img_12.png](/assets/images/tutorial/form/form_fruit_create_flow-11.png)
-![img_13.png](/assets/images/tutorial/form/form_fruit_create_flow-12.png)
+![form9.png](/assets/images/form9.png)
+![form10.png](/assets/images/form10.png)
+
+## Test Run
+
 
 ---
 
@@ -107,5 +108,5 @@ User: Thanks
 Bot : You are welcome! I'll prepare your order with 5 apples, fell free to ask!
 ```
 
-## How to write prompt?
+<!-- ## How to write prompt? -->
 <!-- Form中对应部分Prompt 如何写？ Function 如何写？ -->
