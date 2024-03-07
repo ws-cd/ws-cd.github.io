@@ -85,7 +85,7 @@ The `Complete` node handles the completion of the collection form, here we confi
 ![form10.png](/assets/images/form10.png)
 
 ## Test Run
-
+![form11.png](/assets/images/form11.png)
 
 ---
 
