@@ -7,7 +7,7 @@ has_children: false
 # Dialog Flow Design
 {: .no_toc .header }
 
-PromptDialog provides a dialog flow editing tool on cloud (via Amazon AWS/US).  This means that you can access the design anytime and anywhere. As long as you have an internet connection, you can easily edit and manage your chatbots.  A designer can create/edit/upload dialog flows that reflect business logic.  The flows can be viewed as annotated conversations like the ones in RASA-X, but with much reduced annotation effort.  PromptDialog automaticallly converts the flows to RASA stories and codes (open source).  The designer can train and test the code in her own local running environment.  
+PromptDialog provides a dialog flow editing tool on cloud (via Amazon AWS/US).  This means that you can access the design anytime and anywhere. As long as you have an internet connection, you can easily edit and manage your chatbots.  A designer can create/edit/upload dialog flows that reflect business logic. The designer can train and test the code in her own local running environment.  
 
 ![cloud_design.png](/assets/images/cloud_design.png)
 
