@@ -4,7 +4,8 @@ title: Slots Config
 parent: Developer's Guide
 nav_order: 18
 ---
-Slot可配置一些默认的信息
+Slots support configuring with Slot Type、Enum and Default value.
+
 ![slot_config_1.png](/assets/images/tutorial/slot_config_1.png)
 
 | Settings | Explain | Scope | Remark |
