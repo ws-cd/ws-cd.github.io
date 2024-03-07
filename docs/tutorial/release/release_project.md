@@ -8,28 +8,27 @@ grand_parent: Developer's Guide
 
 ## Select modules to release
 Click the project tool on the left navigation pane, click Release, select which modules to release, and then click Release Button. 
+If there is an **update after publishing**, you need to click Release again to make the update take effect.
 
-- If there is an update after publishing, you need to click Release again to make the update take effect.
-
-![release_not_release.jpg](/assets/images/tutorial/release_not_release.jpg)
+![project_release0.png](/assets/images/project_release0.png)
 
 ## Releasing
 As shown in the figure, after the module to be released is currently selected, an icon will prompt the task status on the left side of the release button, and the text of the release button will change to being released. At this time, users can jump to other pages to operate, or stay here to wait for the completion of training,
 Or click Stop to stop releasing.
 
-![release_releasing.jpg](/assets/images/tutorial/release_releasing.jpg)
+![project_release1.png](/assets/images/project_release1.png)
 
 ## Releasing completed
 
 As shown in the figure, after the releasing is completed, the icon next to the releasing will change, and the mouse will be placed on the icon to prompt the completion of the releasing.
 
-![release_completed.jpg](/assets/images/tutorial/release_completed.jpg)
+![project_release2.png](/assets/images/project_release2.png)
 
 ## Test
 As shown in the figure, enter the chat information in the robot dialog window to verify whether the robot replies as expected.
 What we verify here is that the user asks whether the fruit price can correctly obtain the fruit price information from the webhook, and the result meets the expectation.
 
-![release_test.jpg](/assets/images/tutorial/release_test.jpg)
+![project_release3.png](/assets/images/project_release3.png)
 
 ## Release in your app
 The released project can be deployed through QR code and embedded any web pages
@@ -41,15 +40,15 @@ Requirement:
 
 ###  QR code [Mobile]
 When you need to access the mobile terminal, you can experience it by accessing the mobile terminal link or scanning the QR code.
-![release_qrcode.jpg](/assets/images/tutorial/release_qrcode.jpg)
+![project_release4.png](/assets/images/project_release4.png)
 
 * Embed the QR code into the website, and users can experience the published projects through mobile browser scanning or WeChat scanning
 
-![release_mobile_demo.jpg](/assets/images/tutorial/release_mobile_demo.jpg)
+<img src="/assets/images/project_release6.jpg" alt="project_release6.png" width="390"/>
 
 ### Web page 
 1. As shown, here we have prepared a project and released it in the project
-   ![release_web_script.jpg](/assets/images/tutorial/release_web_script.jpg)
+   ![project_release5.png](/assets/images/project_release5.png)
 
     - Paste the "Web Embedded Code(javascript)" in your html header
     ```html
