@@ -70,6 +70,7 @@ In the LLMs setting, you can enable the use of LLMs on `FAQ` and `Flow`. Please 
 
 ### Knowledge Base:
 - When answering a question not in the FAQ,  the bot could generate answers from the knowledge bases.
+
 > Based on the generation capability of LLMs, summarize and answer the user's questions. A check source link will appear next to the answer to display the original source content.
 
 ![use_llms_3.jpg](/assets/images/use_llms2.png)
