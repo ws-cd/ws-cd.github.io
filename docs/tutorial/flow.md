@@ -11,7 +11,7 @@ Click `Flows` in the left navigation pane to add a dialog new flow.  Enter the f
 ![overview1.png](/assets/images/overview1.png)
 
 
-## Edit or add a bot response node
+## A Bot Node
 Click and select `Add Bot Node` or `Edit Node` from the pop-up menu. 
 
 ![overview2.png](/assets/images/overview2.png)
@@ -47,11 +47,11 @@ The bot response node adds multiple text responses, as shown in the figure.
 The implementation method of adding another bot response node after the current one is shown in the figure.
 ![flow3.png](/assets/images/flow3.png)
 
-## Add a user utterance node
+## A User Node
 After creating a bot, it will display the flow window. Click the node of bot and here we click `Add User Node`.
 ![flow4.png](/assets/images/flow4.png)
 
-## Edit a user utterance node
+## Edit a use node
 Click the user utterance; the editing pane will pop up on the right. It is expected that multiple utterances are needed so that the user intent can be classified correctly. 
 ![flow5.png](/assets/images/flow5.png)
 
