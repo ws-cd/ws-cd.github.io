@@ -9,7 +9,7 @@ nav_order: 2
 Yes. Please refer to the tutorial [Create a dialog flow - Add an attachment to the bot response](/docs/tutorial/flow/).
 
 ### Can I fill multiple slots in one sentence? For example, "I want five pounds of apples"
-Yes. You can define multiple slots in a form, and we will automatically recognize multiple slots. For more details, please see [here](/docs/tutorial/multiple_slots).
+Yes. You can define multiple slots in a form, and we will automatically recognize multiple slots. For more details, please see [here](/docs/tutorial/form/).
 
 ### During a conversation, I want to output different responses according to different user inputs. What should I do?
 There are several ways to do it.
