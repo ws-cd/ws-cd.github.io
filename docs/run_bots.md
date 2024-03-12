@@ -18,10 +18,11 @@ The local running environment uses a docker implementation that packages RASA 3.
 The local machine shall meet the minimum system requirements:
 
 ```text
-OS         :Linux/Mac OS
-RAM        :At least 8GB
-Disk Space :At least 32GB available
-Docker Env :20.10.6 or newer
+OS           :Linux/Mac OS
+Architecture :amd64
+RAM          :At least 8GB
+Disk Space   :At least 32GB available
+Docker Env   :20.10.6 or newer
 ```
 
 - [What is Docker?](https://www.docker.com/)

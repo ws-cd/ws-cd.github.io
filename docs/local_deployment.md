@@ -21,10 +21,11 @@ The PromptDialog implementation is done by Docker, including two images .
 
 ## Requirements
 ```text
-OS         :Linux/Mac OS
-RAM        :At least 8GB
-Docker Env :20.10.6 or newer
-Disk Space :At least 32GB available
+OS           :Linux/Mac OS
+Architecture :amd64
+RAM          :At least 8GB
+Docker Env   :20.10.6 or newer
+Disk Space   :At least 32GB available
 ```
 
 ## Installation Command
