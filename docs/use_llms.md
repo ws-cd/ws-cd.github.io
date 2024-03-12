@@ -15,11 +15,7 @@ Using LLMs can improve conversation quality with fewer examples.
 |      Flow      |  ✅  |  ✅  |      |
 | Knowledge Base |  ✅  |  ❌  | Only support LLMs, using Retrieval-Augmented Generation (RAG)|
 
-<!--Flow开启LLMs时需要将FAQ的LLMs功能开启-->
-
-*1、Before you enable LLMs on Flows, you need to enable LLMs on FAQ first.*
-
-*2、You can config your OpenAI API Key on our platform or use the tokens we purchased from OpenAI. If you have other need, please contact us: [info@promptai.us](mailto:info@promptai.us)*
+You can config your OpenAI API Key on our platform or use the tokens we purchased from OpenAI. If you have other need, please contact us: [info@promptai.us](mailto:info@promptai.us)
 
 ## LLMs Tokens
 <!--开启后将在训练/对话阶段消耗Token，目前系统为所有用户赠送了`100,000`Token。-->
@@ -44,8 +40,7 @@ Where OpenAI tokens will be used:
 For more details please visit:[Pricing Page](https://promptai.us/en/pricing)
 
 ## Enable LLMs
-<!--在项目-大语言模型设置中选择开启`用户问答(FAQ)`和`对话流图`，开启后点击右上角进行保存。-->
-In the LLMs setting, you can enable the use of LLMs on `FAQ` and `Flow`. Please debug/run/re-publish your bot to make the new setting effective.
+Please debug/run/re-publish your bot to make the new setting effective.
 
 ![use_llms0.png](/assets/images/use_llms0.png)
 
