@@ -64,6 +64,8 @@ In the pop-up Slot window, we need to pay attention to the input `Slot Name`、`
 - Slot Question : A sentence to prompt the user to enter the information in the question.
 - Description   : The Prompt used by GPT tells GPT how to extract Slot from user input.
 
+More details [Slots Config](/docs/tutorial/slot_config/)
+
 ![form5.png](/assets/images/form5.png)
 
 So far, the `fruit_type` slot has been created.
