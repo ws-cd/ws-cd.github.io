@@ -22,28 +22,32 @@ PromptAI offers a professional design experience for your conversational AI, aim
 <!-- ## 快速开始  -->
 ## Get Start
 <!-- 以下是在云版本中创建第一个对话机器人的例子。（更多例子在[这里](/docs/examples/)可以查看） -->
-Here is an example of creating the first chatbot in the cloud version. (Local version examples or more examples can be found [here](/docs/example/))
+Here is an example of creating the first chatbot in the cloud version. 
+<!-- Here is an example of creating the first chatbot in the cloud version. (Local version examples or more examples can be found [here](/docs/example/)) -->
 
 <!-- 1. 创建第一个项目 -->
 1. Create the first project.
-![overview0.png](/assets/images/overview0.png)
+![overview0.png](/assets/images/overview/get-start-01.png)
 <!-- 2. 点击完善第一个Bot节点 -->
-2. Create the firest dialog flow.
-![overview1.png](/assets/images/overview1.png)
+2. Create the first dialog flow.
+![overview1.png](/assets/images/overview/get-start-02.png)
 <!-- 3. 点击完善第一个Bot节点  -->
 3. Click to complete the first Bot node.
-![overview2.png](/assets/images/overview2.png)
+![overview2.png](/assets/images/overview/get-start-03.png)
 <!-- 4. 创建一个User节点。 -->
-4. Add User Node
-![overview3.png](/assets/images/overview3.png)
+4. Add a User Node to match users may encounter problems
+![overview3.png](/assets/images/overview/get-start-04.png)
 <!-- 5. 创建一个Bot节点。 -->
-5. Add Bot Node
-![overview4.png](/assets/images/overview4.png)
+5. Add a Form Node to collect user's problem and email address
+![overview4.png](/assets/images/overview/get-start-05.png)
+![overview4.png](/assets/images/overview/get-start-06.png)
 <!-- 6. 至此，我们完成了第一个简单的对话流图，现在我们点击右上角“Debug Run”开始调试运行。 -->
-6. At this point, we have completed the first simple dialogue flowchart. Now, let's click on "Debug Run" in the upper right corner to start debugging and running.
-![overview5.png](/assets/images/overview5.png)
-<!-- 7. 等待链接完成，测试我们的流图。 -->
-7. Wait for the connection to complete and test our flowchart.
+6. Add a Bot node after the Complete Form Node
+![overview4.png](/assets/images/overview/get-start-07.png)
+7. At this point, we have completed the first simple dialogue flow. Now, let's click on "Debug Run" in the upper right corner to start debugging and running.
+![overview5.png](/assets/images/overview/get-start-08.png)
+<!-- 7. 等待链接完成，测试我们的流图。 // TODO 这不能正常对话，稍后更新 -->
+7. Wait for the connection to complete and test our flow.
 ![overview6.png](/assets/images/overview6.png)
 
 <!-- ## 快速发布 -->
