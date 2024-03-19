@@ -48,7 +48,7 @@ Here is an example of creating the first chatbot in the cloud version.
 ![overview5.png](/assets/images/overview/get-start-08.png)
 <!-- 7. 等待链接完成，测试我们的流图。 // TODO 这不能正常对话，稍后更新 -->
 7. Wait for the connection to complete and test our flow.
-![overview6.png](/assets/images/overview6.png)
+![overview6.png](/assets/images/overview/get-start-09.png)
 
 <!-- ## 快速发布 -->
 ## Quick Publish
