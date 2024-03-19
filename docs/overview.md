@@ -54,11 +54,11 @@ Here is an example of creating the first chatbot in the cloud version.
 ## Quick Publish
 <!-- 选择我们刚刚测试运行好的流图，进行发布。发布之后，我们可以看见web内嵌链接，和移动端链接。更多发布相关内容请看这里。 -->
 Select the flowchart that we just tested and ran successfully, then proceed with publishing. After publishing, we can see the web-embedded link and the mobile link. For more information on publishing, please refer to [this section](/docs/tutorial/release/release_project).
-![overview7.png](/assets/images/overview7.png)
+![overview7.png](/assets/images/overview/get-start-10.png)
 
 <!-- ## 对话历史和Dashboard -->
 ## Conversation History and Dashboard
 <!-- 对话历史纪录了，当前项目的所有对话信息。 -->
 The conversation history records all dialogue information for the current project.
-![overview8.png](/assets/images/overview8.png)
-![overview9.png](/assets/images/overview9.png)
+![overview8.png](/assets/images/overview/get-start-11.png)
+![overview9.png](/assets/images/overview/get-start-12.png)
