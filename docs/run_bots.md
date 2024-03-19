@@ -1,4 +1,4 @@
----
+<!--
 layout: en
 title: Run Chatbots
 nav_order: 3
@@ -6,7 +6,7 @@ has_children: false
 ---
 {: .no_toc .header }
 
-After successfully creating an account, you can start designing your chatbot immediately. There are two ways to train and test your design. You could create the local running environment as illustrated below, which packaged everything for you and allows you to communicate with PromptDialog to run and test your bot.  This is a preferred option as it supports many new features that RASA does not have.  You could also download the generated RASA code (It enables DIET and TEDPolicy as default training options) and run it in your own RASA environment.  If you prefer a complete cloud solution that design, train, and run the bot all on cloud, please contact us [info@promptai.us](mailto:info@promptai.us).  We have a complete cloud solution. 
+After successfully creating an account, you can start designing your chatbot immediately. There are two ways to train and test your design. You could create the local running environment as illustrated below, which packaged everything for you and allows you to communicate with PromptDialog to run and test your bot.  This is a preferred option as it supports many new features that RASA does not have.  You could also download the generated RASA code (It enables DIET and TEDPolicy as default training options) and run it in your own RASA environment.  If you prefer a complete cloud solution that design, train, and run the bot all on cloud, please contact us [info@promptai.us](mailto:info@promptai.us).  We have a complete cloud solution.
 
 
 ## Local Running Environment (LRE)
@@ -51,8 +51,8 @@ After the installation is successful, enter the "Manage Agents" page to see the 
 All set! Enjoy all the features in PromptDialog Cloud!
 
 ## What does an agent do?
-The following section introduces the details of agents. You need not to read this part to run chatbots in PromptDialog successfully. 
-
+The following section introduces the details of agents. You need not to read this part to run chatbots in PromptDialog successfully.
+-->
 <!---
 - 接收训练/部署任务
 - 上传任务执行步骤、结果
@@ -61,6 +61,7 @@ The following section introduces the details of agents. You need not to read thi
 - 创建、停止和升级AI容器
 --->
 
+<!--
 - Receive training tasks
 - Train Rasa models
 - Start, run, and stop bots
@@ -73,6 +74,7 @@ Agents will only create and operate in the following directory of your machine.
 - location: $HOME/zbot
 
 Please do not modify any file in the above directory. 
+-->
 
 <!--
 - 数据与系统运行有关，请勿操作。否则可能导致系统无法正常工作。
@@ -112,6 +114,7 @@ Example:
                 └── p_cmaamgq4bsao
 ```
 -->
+<!--
 
 After the agent is successfully installed, the `install_agent.sh` script will be created in the `$HOME/zbot` directory to upgrade and uninstall the Agent.
 
@@ -134,6 +137,7 @@ The agent implementation is done by Docker, including two images and multiple co
 |:------|:-------------|--------------------------------------------------------------------------|
 |  AI   | zbot_a1_xxxx  | "xxxx" is the selected models for debugging. There may be more than one |
 | Agent | zbot_agent   | Agent service, manage AI models, there is only one                       |
+-->
 
 <!---
 | Name  | Container    | Description                                                      |
