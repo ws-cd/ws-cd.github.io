@@ -8,13 +8,14 @@ nav_order: 4
 ## Create a dialog flow
 Click `Flows` in the left navigation pane to add a dialog new flow.  Enter the flow name and description in the pop-up dialog box.
 
-![overview1.png](/assets/images/overview1.png)
+![flow-01.png](/assets/images/tutorial/flow/flow-01.png)
 
 
 ## A Bot Node
 Click and select `Add Bot Node` or `Edit Node` from the pop-up menu. 
 
-![overview2.png](/assets/images/overview2.png)
+![flow-02.png](/assets/images/tutorial/flow/flow-02.png)
+
 
 The followings are a few options you can make for bot reply. 
 
@@ -42,18 +43,18 @@ There are five different kinds of replies a bot can make:
 We can add multiple lines of texts to the bot response node or add another bot response node after the current one. 
 
 The bot response node adds multiple text responses, as shown in the figure.
-![flow2.png](/assets/images/flow2.png)
+![flow-03.png](/assets/images/tutorial/flow/flow-03.png)
 
 The implementation method of adding another bot response node after the current one is shown in the figure.
-![flow3.png](/assets/images/flow3.png)
+![flow-04.png](/assets/images/tutorial/flow/flow-04.png)
 
 ## A User Node
 After creating a bot, it will display the flow window. Click the node of bot and here we click `Add User Node`.
-![flow4.png](/assets/images/flow4.png)
+![flow-05.png](/assets/images/tutorial/flow/flow-05.png)
 
 ## Edit a use node
-Click the user utterance; the editing pane will pop up on the right. It is expected that multiple utterances are needed so that the user intent can be classified correctly. 
-![flow5.png](/assets/images/flow5.png)
+Click the user utterance; the editing pane will pop up on the right. It is expected that multiple utterances are needed so that the user intent can be classified correctly.
+![flow-06.png](/assets/images/tutorial/flow/flow-06.png)
 
 The followings are a few options you can make for user utterance. 
 
@@ -68,8 +69,8 @@ The followings are a few options you can make for user utterance.
 
 ## Complete Dialog Flow
 The dialogue effect is shown below where the file will be displayed in conversation.
-![flow6.png](/assets/images/flow6.png)
+![flow-07.png](/assets/images/tutorial/flow/flow-07.png)
 
 ## Run your dialog flow
 You can click `Debug Run` to test your dialog flow.
-![flow7.png](/assets/images/flow7.png)
+![flow-08.png](/assets/images/tutorial/flow/flow-08.png)
