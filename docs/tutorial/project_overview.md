@@ -7,9 +7,9 @@ nav_order: 2
 Click `Overview`, the designer can review the modules in the project.  Clicking these modules will bring the designer to the corresponding module such as FAQ and Flows. 
 ## Project
 
-Click the current project `Hello world` in the overview window, and then click the pop-up `Edit Node` to edit the project settings.
+Click the current project `IT Helpdesk` in the overview window, and then click the pop-up `Edit Node` to edit the project settings.
 
-![project_create0.png](/assets/images/project_create0.png)
+![project-overview-01.png](/assets/images/tutorial/project/project-overview-01.png)
 
 In the project settings, you could choose what to display below the first welcome message. You can display faq or a subset of flows as buttons so that the user can click one of the buttons to enter.  Certainly, a user can speak about her need; the bot will enter the corresponding flow based on her utterance. 
 
@@ -18,15 +18,15 @@ It is the chatbot's first message
 
 ### `Whether faq or flows are displayed as buttons below the first welcome message?`
 Whether to display each module as a button below the welcome message, you can configure it here.
-![project_overview4.png](/assets/images/project_overview4.png)
-![project_overview5.png](/assets/images/project_overview5.png)
-![project_overview6.png](/assets/images/project_overview6.png)
+![project-overview-02.png](/assets/images/tutorial/project/project-overview-02.png)
+![project-overview-03.png](/assets/images/tutorial/project/project-overview-03.png)
+![project-overview-04.png](/assets/images/tutorial/project/project-overview-04.png)
 
 ---
 
 ## FAQ
 Click `FAQ` in the overview diagram, and then click the pop-up `Edit Node` to visit the FAQ page.
-![project_overview1.png](/assets/images/project_overview1.png)
+![project-overview-05.png](/assets/images/tutorial/project/project-overview-05.png)
 
 ### `First message to user` or `Last message to user`
 For example.
@@ -48,7 +48,7 @@ bot: Are there any other questions? (`Last message to user`)
 
 ## Flows
 Click a `Flow`. Then click the pop-up `Edit Node` to visit the dialog flow diagram you selected.
-![project_overview2.png](/assets/images/project_overview2.png)
+![project-overview-06.png](/assets/images/tutorial/project/project-overview-06.png)
 
 ### `First Message`
 The `First Message` option allows you to configure the first message of each flow. It means that when we reach this flow during our conversation, the system sends the first message to the user.
@@ -66,7 +66,7 @@ Fallback PromptDialog refers to a backup plan used when the system encounters in
 - When the system is uncertain about a response, it may indicate its uncertainty.
 - In the case of technical issues or errors, the system explains the problem to the user and may offer solutions.
 
-![project_overview3.png](/assets/images/project_overview3.png)
+![project-overview-06.png](/assets/images/tutorial/project/project-overview-07.png)
 
 ### `Buttons for fallback`
 When triggering a fallback, you can choose to display buttons for flows or FAQs to guide the user for the next step in the conversation.
