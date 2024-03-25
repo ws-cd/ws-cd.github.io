@@ -6,10 +6,8 @@ has_children: false
 ---
 PromptAI provides an all-in-one devops platform of building, running and deploying a chatbot.  It actually supports all of four settings: The chatbot design environment and running environment could either be on premises or cloud.
 
-* [Design bots on cloud, run locally](https://www.promptai.us/en/pricing/on-cloud/)
-* Design bots on cloud, run on cloud
+* [Design bots on cloud, run on cloud](https://www.promptai.us/en/pricing/on-cloud/)
 * [Design bots locally, run locally](https://www.promptai.us/en/pricing/premises/)
-* Design bots locally, run on cloud
 
 The current release supports cloud-based chatbot design/testing, local training/running. For users who are interested in the other three settings, please contact [info@promptai.us](mailto:info@promptai.us).
 
