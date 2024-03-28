@@ -29,13 +29,13 @@ There are other similar scenarios that can be handled by Form:
 ## How to use Form?
 Next, we will introduce how to create the example of IT helpdesk mentioned above.
 
-### Create Fruit Dialog flow
+### Create Incident Dialog flow
 ![form-01.png](/assets/images/tutorial/form/form-01.png)
 
 Next, we create a `User` node to start collect information
 ![form-02.png](/assets/images/tutorial/form/form-02.png)
 
-## Create fruit form
+## Create Incident Form
 Click the `User` node and select `Form` in the pop-up menu and click `Add GPT Form Node`.There are two input fields:
 - Name       : The name of the Form can be set according to the function, here we fill in `Incident`.
 - Description: The Prompt used by GPT tells GPT what the form need to do.
@@ -53,7 +53,7 @@ Four pieces of information need to be completed after creating `Incident`
 | Complete      |    Yes   | After the form runs successfully                       |
   
 ## Slots
-We need to collect `email` and `problem` from users through Slots, and then explain in detail how to add `fruit_type`
+We need to collect `email` and `problem` from users through Slots, and then explain in detail how to add `email`
 
 Click on the `Slots` node and select `Add Slot` from the pop-up menu
 ![form-05.png](/assets/images/tutorial/form/form-05.png)
