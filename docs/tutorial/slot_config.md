@@ -6,7 +6,7 @@ nav_order: 18
 ---
 Slots support configuring with Slot Type、Enum and Default value.
 
-![slot_config_1.png](/assets/images/tutorial/slot_config_1.png)
+![slot-config-01.png](/assets/images/tutorial/slot_config/slot-config-01.png)
 
 | Settings | Explain | Scope | Remark |
 |------|:-----|:---------|------|
@@ -28,7 +28,7 @@ Steps:
 1. Enable Enum
 2. Click the green Add button to add
 
-![slots_config_2.png](/assets/images/tutorial/slots_config_2.png)
+![slot-config-02.png](/assets/images/tutorial/slot_config/slot-config-02.png)
 
 ## Default value
 Automatically fill slots when start a chat
@@ -38,4 +38,4 @@ Automatically fill slots when start a chat
 - Session Story: Read the specified key from Session Story
 - Custom Script: Run a custom JavaScript code and fill the return value into the slot
 
-![slots_config_3.png](/assets/images/tutorial/slots_config_3.png)
+![slot-config-03.png](/assets/images/tutorial/slot_config/slot-config-03.png)
