@@ -20,12 +20,13 @@ There are two steps to call a webhook.
 ### Step 1.
 Click `Project View` - `Webhooks`. Click `+ Add` on the upper right corner.  Create a webhook to call the weather API (more details later). 
 
-![webhook_weather_setting.jpg](/assets/images/webhook_weather_setting.jpg)
+![webhook-concept-01.png](/assets/images/webhook/webhook-concept-01.png)
+![webhook-concept-01.png](/assets/images/webhook/webhook-concept-02.png)
 
 ### Step 2. 
 Create a flow for querying weather and select a webhook in a bot reply node. 
 
-![webhook_weather_use.jpg](/assets/images/webhook_weather_use.jpg)
+![webhook_weather_use.jpg](/assets/images/webhook/webhook-concept-03.png)
 
 The following is the detailed setting instruction for Step 1.
 ### Basic Settings
@@ -69,7 +70,7 @@ These settings handle the result received from the third party API call and pack
 
 Due to many factors, sometimes the API call fails.  We need to send a hint to the user when the webhook request fails. Note that this situation is different from an empty result returned by the API call.  Set a short message at `Returning message if the call fails or does not receive any result`.
 
-![webhook6.png](/assets/images/webhook_weather_response_setting.jpg)
+![webhook6.png](/assets/images/webhook/webhook-concept-04.png)
 
 Take the weather query as an example.  Suppose there is a weather service that responds with:
 ```json
@@ -117,9 +118,9 @@ The above process needs a step to extract values from the API call and fill them
   "city": "New York"
 }
 ```
-We shall do the following JsonPath refernece and map the value to the slots in Rasa. 
+We shall do the following JsonPath reference and map the value to the slots in Rasa. 
 
-![52-webhook](/assets/images/webhook_weather_response_overview.jpg)
+![52-webhook](/assets/images/webhook/webhook-concept-05.png)
 
 
 <!---
