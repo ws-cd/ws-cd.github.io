@@ -102,8 +102,8 @@ Bot : {"temperature":"82°F (28°C)","conditions":"Mostly sunny","wind":"5 mph (
 // at `Returning message if the call is completed successfully`
 
 User: Hi, can you please tell me the weather in New York?
-Bot : Sure! I can provide you with the weather information for New York.
-      Here is the current weather forecast for New York: temperature:82°F (28°C) 、wind:5 mph (8 km/h) 、conditions:Mostly sunny and humidity:60%
+Bot : Sure! Let me check the current weather conditions for you. Just a moment, please.
+     The current weather in New York is  6.5°C  with  humidity 48%
 ```
 
 ### Insert value to slots in Rasa
