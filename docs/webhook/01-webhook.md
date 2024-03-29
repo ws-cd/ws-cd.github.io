@@ -33,7 +33,7 @@ The following is the detailed setting instruction for Step 1.
 - name : The name to refer the new webhook.
 - URL : The url here has the same meaning as http url. Please pay attention to the 'http/https' protocol when filling in here. It is the access link that the third party service provides to you.  In addition, the URL address also supports the transmission of variable value. When calling the webhook, the corresponding variable placeholder will be replaced with its corresponding value.  As shown in the figure, if we define a slot `city` in the flow diagram, we can use `{city}` to send the value to the third party service provider. 
    ```
-   app.promptai.us/rpc/gaode/weather?key=c4f69dbbd66cfc7f4e49310fea69dff1&city={city}
+   api.tomorrow.io/v4/weather/realtime?location={city}&apikey=your_key
    ```
   
 ### Request Settings
