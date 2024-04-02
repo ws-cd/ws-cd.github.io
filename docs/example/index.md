@@ -1,7 +1,7 @@
 ---
 layout: en
 title: Video Tutorials
-nav_order: 4
+nav_order: 5
 has_children: true
 ---
 # Video Tutorials
