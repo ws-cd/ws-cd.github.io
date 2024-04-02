@@ -7,7 +7,7 @@ nav_order: 4
 # Automatic Fill Slots via Web 
 当 Project 发布后通过Web link部署在Web端时，可配合[Slot default value](/docs/tutorial/slot_config/#default-value) 实现读取已登录用户信息，并填充到Slot中。
 
-基于[IT Helpdesk From](/docs/tutorial/form/]实现获取用户信息，并填充到Slot中。
+基于[IT Helpdesk From](/docs/tutorial/form/)实现获取用户信息，并填充到Slot中。
 
 ### 实现效果
 
@@ -16,8 +16,6 @@ nav_order: 4
 2、收集反馈信息时无需重复询问`mail`
 
 3、结束时输出`name`和 `mail`
-
-![img.png](/assets/images/addvanced_control/fill_slot/fill-slot-01.png)
 
 ### 步骤
 1、在变量中配置从Local storage种读取当前登录用户的`name`和`email`。
