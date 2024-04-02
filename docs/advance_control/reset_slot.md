@@ -2,7 +2,7 @@
 layout: en
 title: Reset Slot Value
 parent: Advanced Control
-nav_order: 3
+nav_order: 2
 ---
 # Reset Slot Value
 {: .no_toc .header }

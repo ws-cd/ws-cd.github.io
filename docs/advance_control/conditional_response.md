@@ -2,7 +2,7 @@
 layout: en
 title: Conditional Responses
 parent: Advanced Control
-nav_order: 4
+nav_order: 3
 ---
 Let's create a chatbot of IT Helpdesk, which can give the reason for the error codes.
 ```text

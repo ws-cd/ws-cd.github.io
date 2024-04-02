@@ -1,23 +1,28 @@
 ---
 layout: en
-title: Web Knowledge Base
+title: IT Helpdesk 
 parent: Quick Start
-nav_order: 1
+nav_order: 2
 ---
-# 基于Web与FAQ快速构建企业知识库
-欢迎使用PromptAI！此快速入门指南将指导您如何通过URL和FAQ构建企业知识库。
+# IT Helpdesk
 
-本文使用PromptAI[帮助文档](https://doc.promptai.us/docs/about/) 作为Web来源，同时添加一些常用的FAQ。
-构建完成后可通过 PromptAI 提供的ChatBot直接进行对话, 仅需少许输入与点击操作。
+基于[Web Knowledge Base](/docs/quick_start/knowledge_base/) 拓展实现IT Helpdesk功能。
 
-## 准备工作
-1、注册与登录
+功能清单：
+- 用户登录后，打开 Chatbot框可识别到用户名（email等其他信息）
+- 回答不上的问题用户可自助提交工单
 
-如果您暂时没用PromptAI账号，请[点击注册](https://app.promptai.us/register) 通过邮件注册。如您已有账号， [点击登录](https://app.promptai.us/login) 进行登录。
+## 创建Service Flow
+Service flow 可收集用户问题，并自动生成工单。
+![img.png](img.png)
 
-  
-## 构建与管理知识库
-1、创建项目
+具体实现：
+- [文本教程](/docs/tutorial/form/)
+- [视频教程](/docs/example/form/)
+
+
+## 自动加载用户名
+
 
 登录系统后，在右上角点击进行"Create Project"进行项目创建。
 

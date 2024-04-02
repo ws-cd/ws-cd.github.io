@@ -2,7 +2,7 @@
 layout: en
 title: Bot Reply Conditions
 parent: Advanced Control
-nav_order: 2
+nav_order: 1
 ---
 # Reply Conditions
 {: .no_toc .header }
