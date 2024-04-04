@@ -24,12 +24,18 @@ nav_order: 4
 
 ## 实现
 1、配置需要填充的系统变量: 在`Project View-Slots`中创建`name`和`email`并完成默认值配置
+<table>
+  <tr>
+    <td><img src="/assets/images/addvanced_control/fill_slot/fill-slot-02.png" alt="Image 1 description"></td>
+    <td><img src="/assets/images/addvanced_control/fill_slot/fill-slot-03.png" alt="Image 2 description"></td>
+  </tr>
+</table>
 
-![img_3.png](/assets/images/addvanced_control/fill_slot/fill-slot-02.png)
-![img_4.png](/assets/images/addvanced_control/fill_slot/fill-slot-03.png)
 
 2、修改欢迎语，展示用户名称
-> Hello {name}, I am your intelligent assistant. What can I do for you?
+
+> `Hello {name}, I am your intelligent assistant. What can I do for you?`
+
 ![img_5.png](/assets/images/addvanced_control/fill_slot/fill-slot-04.png)
 
 3、输出`name`和`email`

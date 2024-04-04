@@ -34,8 +34,8 @@ Steps:
 Automatically fill slots when start a chat
 
 - Set Value: Set a fixed value, no need to read it from the website.
-- Local Story: Read the specified key from Local Story
-- Session Story: Read the specified key from Session Story
+- Local Story: Read the specified key from Local Storage
+- Session Story: Read the specified key from Session Storage
 - Custom Script: Run a custom JavaScript code and fill the return value into the slot
 
 ![slot-config-03.png](/assets/images/tutorial/slot_config/slot-config-03.png)
