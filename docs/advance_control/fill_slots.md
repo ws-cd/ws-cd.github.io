@@ -4,14 +4,13 @@ title: Automatic Fill Slots
 parent: Advanced Control
 nav_order: 4
 ---
-# Automatic Fill Slots via Web 
 当 Project 发布后通过Web link部署在Web端时，可配合[Slot default value](/docs/tutorial/slot_config/#default-value) 实现读取已登录用户信息，并填充到Slot中。
 
-基于[IT Helpdesk From](/docs/tutorial/form/)实现获取用户信息，并填充到Slot中。
+基于[IT Helpdesk From](/docs/tutorial/form/)实现获取用户信息并填充到Slot中。
 
 ### 实现效果
 
-1、欢迎语种包含`name`
+1、欢迎语包含`name`
 
 2、收集反馈信息时无需重复询问`mail`
 
@@ -41,13 +40,15 @@ nav_order: 4
 3、输出`name`和`email`
 ![img_6.png](/assets/images/addvanced_control/fill_slot/fill-slot-05.png)
 
-
 保存后重新发布。
-注：插槽变量和系统变量读取位置是一样的，两个读同一个位置的变量不冲突
 
 ## 测试
 创建会话后，欢迎语中出现了配置的`name`: PromptAI-User
 
 ![img_7.png](/assets/images/addvanced_control/fill_slot/fill-slot-06.png)
+
+收集过程中未询问`email`,收集完成后输出自动填充的`email`和`name`
+
+![img_7.png](/assets/images/addvanced_control/fill_slot/fill-slot-07.png)
 
 
