@@ -33,6 +33,10 @@ Service flow 可收集用户问题，并自动生成工单。
 具体实现
 - [文本教程](/docs/advance_control/fill_slots/)
 
+填充结果：
+- name : PromptAI-User
+- email: info@promptai.us
+
 ## Fallback
 当用户输入问题无法匹配到任何问题时，用户可选择提交工单。
 
@@ -43,3 +47,18 @@ Service flow 可收集用户问题，并自动生成工单。
 
 2、修改Service Flow直接进入提交工单From
 ![img_1.png](/assets/images/quick_start/flow-04.png)
+
+3、修改Bot节点，展示`name`和`email`
+![img.png](/assets/images/quick_start/flow-05.png)
+
+## 对话
+实现目标效果：
+- 1、登录用户在欢迎语中展示`name`：PromptAI-User
+- 2、提交工单是未询问`email`, 提交后展示自动填充的`info@promptai.us`
+
+<table>
+  <tr>
+    <td><img src="/assets/images/quick_start/flow-07.png" alt=""></td>
+    <td><img src="/assets/images/quick_start/flow-06.png" alt=""></td>
+  </tr>
+</table>
