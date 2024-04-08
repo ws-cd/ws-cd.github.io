@@ -11,7 +11,7 @@ nav_order: 2
 *IT Helpdesk: 收集用户的email和问题并自动生成工单，当出现Fallback时，用户可一键提交工单*
 
 功能清单：
-- 可主动获取到登录用户的`name`和`email`
+- 可自动获取到登录用户的`name`和`email`
 - 用户登录后，打开Chatbot框可展示`name`
 - Fallback文本可关联Service Flow创建工单
 - 创建工单时无需重复获取用户的`email`
@@ -54,7 +54,7 @@ Service flow 可收集用户问题，并自动生成工单。
 
 ## 对话
 实现效果：
-- 1、主动获取到登录用户的`name`和`email`
+- 1、自动获取到登录用户的`name`和`email`
 - 2、登录用户在欢迎语中展示`name`：PromptAI-User
 - 3、点击Fallback下方的`Service`按钮可直接提交工单
 - 4、提交工单是未重复询问`email`, 提交后展示自动填充的`info@promptai.us`
