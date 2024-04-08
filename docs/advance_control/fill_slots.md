@@ -25,8 +25,8 @@ nav_order: 4
 1、配置需要填充的系统变量: 在`Project View-Slots`中创建`name`和`email`并完成默认值配置
 <table>
   <tr>
-    <td><img src="/assets/images/addvanced_control/fill_slot/fill-slot-02.png" alt="Image 1 description"></td>
-    <td><img src="/assets/images/addvanced_control/fill_slot/fill-slot-03.png" alt="Image 2 description"></td>
+    <td><img src="/assets/images/advanced_control/fill_slot/fill-slot-02.png" alt="Image 1 description"></td>
+    <td><img src="/assets/images/advanced_control/fill_slot/fill-slot-03.png" alt="Image 2 description"></td>
   </tr>
 </table>
 
@@ -35,20 +35,20 @@ nav_order: 4
 
 > `Hello {name}, I am your intelligent assistant. What can I do for you?`
 
-![img_5.png](/assets/images/addvanced_control/fill_slot/fill-slot-04.png)
+![img_5.png](/assets/images/advanced_control/fill_slot/fill-slot-04.png)
 
 3、输出`name`和`email`
-![img_6.png](/assets/images/addvanced_control/fill_slot/fill-slot-05.png)
+![img_6.png](/assets/images/advanced_control/fill_slot/fill-slot-05.png)
 
 保存后重新发布。
 
 ## 测试
 创建会话后，欢迎语中出现了配置的`name`: PromptAI-User
 
-![img_7.png](/assets/images/addvanced_control/fill_slot/fill-slot-06.png)
+![img_7.png](/assets/images/advanced_control/fill_slot/fill-slot-06.png)
 
 收集过程中未询问`email`,收集完成后输出自动填充的`email`和`name`
 
-![img_7.png](/assets/images/addvanced_control/fill_slot/fill-slot-07.png)
+![img_7.png](/assets/images/advanced_control/fill_slot/fill-slot-07.png)
 
 

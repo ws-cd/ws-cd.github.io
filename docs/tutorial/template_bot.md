@@ -9,13 +9,13 @@ When you have many bot response nodes that need to use the same response, it is 
 ## Create a response template
 As shown in the figure, click `Project View` - `Responses` - `Add` to create a response template.
 
-![template_bot0.png](/assets/images/template_bot0.png)
+![template_bot0.png](/assets/images/tutorial/template/bot/template_bot0.png)
 
 ## Use the template in dialog flows
 1. Here we use the flow diagram to create the response list. 
 
-![template_bot1.png](/assets/images/template_bot1.png)
+![template_bot1.png](/assets/images/tutorial/template/bot/template_bot1.png)
 
 2. Select a bot node of the flow graph, click `Edit Node`, and then select `Select from responses`:
    
-![template_bot2.png](/assets/images/template_bot2.png)
+![template_bot2.png](/assets/images/tutorial/template/bot/template_bot2.png)

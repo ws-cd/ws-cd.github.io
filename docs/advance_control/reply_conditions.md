@@ -13,12 +13,12 @@ Depending on the user utterance, there are two possible replies:
 - Reply with the weather information or
 - Ask the user for the location
   
-![reply-conditions-01.png](/assets/images/addvanced_control/reply-conditions-01.png)
+![reply-conditions-01.png](/assets/images/advanced_control/reply_condition/reply-conditions-01.png)
 
 If the user utterance doesn't contain the location information (At this point we can use `Reply Conditions` to detect), the bot needs to ask the user:
 - I'm having trouble understanding the location you mentioned. Can you give me the name of the city or area one more time?
 
-![reply-conditions-02.png](/assets/images/addvanced_control/reply-conditions-02.png)
+![reply-conditions-02.png](/assets/images/advanced_control/reply_condition/reply-conditions-02.png)
 
 In this case, we can extract 'city' to determine the location.  
 
@@ -28,7 +28,7 @@ In this case, we can extract 'city' to determine the location.
 - Enter `Not Null` to `Conditional value`
 
 This means that the bot will reply when `city` has a value
-![reply-conditions-03.png](/assets/images/addvanced_control/reply-conditions-03.png)
+![reply-conditions-03.png](/assets/images/advanced_control/reply_condition/reply-conditions-03.png)
 
 You can set the condition of asking for the location:
 - Click `Reply Conditions`
@@ -37,6 +37,6 @@ You can set the condition of asking for the location:
 
 This reply will be delivered when there is no value for `city`.
 
-![reply-conditions-04.png](/assets/images/addvanced_control/reply-conditions-04.png)
+![reply-conditions-04.png](/assets/images/advanced_control/reply_condition/reply-conditions-04.png)
 ## Tips
 The slot value can be used to guide the dialog flow to different branches. 

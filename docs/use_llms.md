@@ -42,7 +42,7 @@ For more details please visit:[Pricing Page](https://promptai.us/en/pricing)
 ## Enable LLMs
 Please debug/run/re-publish your bot to make the new setting effective.
 
-![use_llms0.png](/assets/images/use_llms0.png)
+![use_llms0.png](/assets/images/use_llms/use_llms0.png)
 
 <!--
 1、用户问答(FAQ) 该功能下有两个配置小项：
@@ -61,14 +61,14 @@ Please debug/run/re-publish your bot to make the new setting effective.
 - When answering the FAQ, the bot will display other related questions.
 > Users can click on questions that might be related to view other possible answers.
 
-![use_llms_2.jpg](/assets/images/use_llms1.png)
+![use_llms_2.jpg](/assets/images/use_llms/use_llms1.png)
 
 ### Knowledge Base:
 - When answering a question not in the FAQ,  the bot could generate answers from the knowledge bases.
 
 > Based on the generation capability of LLMs, summarize and answer the user's questions. A check source link will appear next to the answer to display the original source content.
 
-![use_llms_3.jpg](/assets/images/use_llms2.png)
+![use_llms_3.jpg](/assets/images/use_llms/use_llms2.png)
 
 ### Flow:
 Pretrained LLMs such as ChatGPT and GPT-4 will dramatically improve conversation quality.  In zero or few shot training,  ChatGPT performs much better than the DIET algorithm in RASA in terms of intent classification and entity recognition. 

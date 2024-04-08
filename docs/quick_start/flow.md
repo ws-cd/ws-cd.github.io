@@ -18,7 +18,7 @@ nav_order: 2
 
 ## 创建Service Flow
 Service flow 可收集用户问题，并自动生成工单。
-![img.png](/assets/images/quick_start/flow-01.png)
+![img.png](/assets/images/quick_start/flow/flow-01.png)
 
 具体实现：
 - [文本教程](/docs/tutorial/form/)
@@ -27,7 +27,7 @@ Service flow 可收集用户问题，并自动生成工单。
 ## 自动加载用户名
 使用[Slot default value](/docs/tutorial/slot_config/#default-value) 读取已登录用户信息填充到Slot中。
 
-![fill-slot-06.png](/assets/images/quick_start/flow-02.png)
+![fill-slot-06.png](/assets/images/quick_start/flow/flow-02.png)
 
 当用户打开对话框时可展示当前用户的用户名。
 
@@ -44,13 +44,13 @@ Service flow 可收集用户问题，并自动生成工单。
 ### Fallback连接到Service Flow
 1、依次点击`Overview-Fallback-Buttons for fallbacks-Add`为 fallback 添加Service Flow按钮
 
-![img.png](/assets/images/quick_start/flow-03.png)
+![img.png](/assets/images/quick_start/flow/flow-03.png)
 
 2、修改Service Flow直接进入提交工单From
-![img_1.png](/assets/images/quick_start/flow-04.png)
+![img_1.png](/assets/images/quick_start/flow/flow-04.png)
 
 3、修改Bot节点，展示`name`和`email`
-![img.png](/assets/images/quick_start/flow-05.png)
+![img.png](/assets/images/quick_start/flow/flow-05.png)
 
 ## 对话
 实现效果：
@@ -61,10 +61,10 @@ Service flow 可收集用户问题，并自动生成工单。
 
 <table>
   <tr>
-    <td><img src="/assets/images/quick_start/flow-06.png" alt=""></td>
-    <td><img src="/assets/images/quick_start/flow-07.png" alt=""></td>
+    <td><img src="/assets/images/quick_start/flow/flow-06.png" alt=""></td>
+    <td><img src="/assets/images/quick_start/flow/flow-07.png" alt=""></td>
   </tr>
   <tr>
-     <td><img src="/assets/images/quick_start/flow-08.png" alt=""></td>
+     <td><img src="/assets/images/quick_start/flow/flow-08.png" alt=""></td>
   </tr>
 </table>

@@ -47,7 +47,7 @@ Login: [http://localhost:9000](http://localhost:9000)
 
 ## How to get a Free License?
 After the installation, a licence is required. For now, we provide free license to Local Environment.
-![license_1](/assets/images/license_1.png)
+![license_1](/assets/images/local_deployment/license_1.png)
 
 ### Get License
 1、You can get License in PromptAI accounts. The first step is register you PromptAI account:
@@ -56,13 +56,13 @@ Register a PromptAI account:[https://app.promptai.us/](https://app.promptai.us/)
 
 2、After login to PromptAI, click your avatar and then click "License"：
 
-![license_2.png](/assets/images/license_2.png)
+![license_2.png](/assets/images/local_deployment/license_2.png)
 
 3、Click the "Create" button you will get a free "Starter" license
-![license_3.png](/assets/images/license_3.png)
+![license_3.png](/assets/images/local_deployment/license_3.png)
 
 4、Paste your License to Local Env
-![license_4.png](/assets/images/license_4.png)
+![license_4.png](/assets/images/local_deployment/license_4.png)
 
 
 ## How to get a Professional License?
@@ -70,6 +70,6 @@ Register a PromptAI account:[https://app.promptai.us/](https://app.promptai.us/)
 Professional licenses are coming soon, please contact us if you need one.
 Mail to: [info@promptai.us](mailto:info@promptai.us)
 
-![license_1](/assets/images/license_1.png)
+![license_1](/assets/images/local_deployment/license_1.png)
 
 
