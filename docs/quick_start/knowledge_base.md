@@ -5,7 +5,7 @@ parent: Quick Start
 nav_order: 1
 ---
 # 基于Web与FAQ快速构建企业知识库
-欢迎使用PromptAI！此快速入门指南将指导您如何通过URL和FAQ构建企业知识库。
+欢迎使用PromptAI！此快速入门指南将指导您如何通过Web(URL)和FAQ构建企业知识库。
 
 本文使用PromptAI[帮助文档](https://doc.promptai.us/docs/about/) 作为Web来源，同时添加一些常用的FAQ。
 构建完成后可通过 PromptAI 提供的ChatBot直接进行对话, 仅需少许输入与点击操作。
@@ -28,7 +28,7 @@ nav_order: 1
 
 ![img.png](/assets/images/quick_start/kb-01.png)
 
-2、添加URL Web知识库
+2、添加Web知识库
 进入项目后，依次点击："Knowledge Base" - "Web" 进入 Web 知识库管理界面
 
 ![img_1.png](/assets/images/quick_start/kb-02.png)
@@ -41,7 +41,7 @@ PromptAI帮助文档由多个页面构成，所以需要解析其他帮助页面
 
 过滤：
 - 使用"Filer"通过关键字对链接筛选
-- URL 左侧的选择框
+- Url左侧的选择框
 
 
 这里我们默认使用全选，点击右下角"OK"即可。
@@ -53,7 +53,7 @@ PromptAI帮助文档由多个页面构成，所以需要解析其他帮助页面
 ![img_4.png](/assets/images/quick_start/kb-05.png)
 
 
-初始化完成后，所有的 URL 状态变为"complete"
+初始化完成后，所有Web状态变为"complete"
 
 ![img_6.png](/assets/images/quick_start/kb-06.png)
 
@@ -97,7 +97,7 @@ PromptAI帮助文档由多个页面构成，所以需要解析其他帮助页面
 
 ![img_13.png](/assets/images/quick_start/kb-12.png)
 
-For now, 我们的 PromptAI Helper 构建已完成。仅需少数几步输入与点击即可完成知识库的构建。
+For now, 我们的 PromptAI Helper 构建已完成。仅需少数几步输入与点击就完成知识库的构建。
 ## 报表
 
 PromptAI对用户提供了报表功能，用户可以查看项目的使用情况，包括访问量、问答量、TopN等。
@@ -105,7 +105,7 @@ PromptAI对用户提供了报表功能，用户可以查看项目的使用情况
 
 
 ## 使用建议
-不仅支持URL，PromptAI还支持Text和File其他两种类型的知识库。三种不同类型的知识库可结合起来一起工作，提供更好的服务使用体验。
+不仅支持Web，PromptAI还支持Text和File其他两种类型的知识库。三种不同类型的知识库可结合起来一起工作，提供更好的服务使用体验。
 
 ## 常见问题解答
 
