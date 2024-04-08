@@ -54,11 +54,15 @@ Service flow 可收集用户问题，并自动生成工单。
 ## 对话
 实现目标效果：
 - 1、登录用户在欢迎语中展示`name`：PromptAI-User
-- 2、提交工单是未询问`email`, 提交后展示自动填充的`info@promptai.us`
+- 2、点击Fallback下方的`Service`按钮可直接提交工单
+- 3、提交工单是未重复询问`email`, 提交后展示自动填充的`info@promptai.us`
 
 <table>
   <tr>
-    <td><img src="/assets/images/quick_start/flow-07.png" alt=""></td>
     <td><img src="/assets/images/quick_start/flow-06.png" alt=""></td>
+    <td><img src="/assets/images/quick_start/flow-07.png" alt=""></td>
+  </tr>
+  <tr>
+     <td><img src="/assets/images/quick_start/flow-08.png" alt=""></td>
   </tr>
 </table>
