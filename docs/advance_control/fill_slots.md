@@ -4,51 +4,49 @@ title: Automatic Fill Slots
 parent: Advanced Control
 nav_order: 4
 ---
-当 Project 发布后通过Web link部署在Web端时，可配合[Slot default value](/docs/tutorial/slot_config/#default-value) 实现读取已登录用户信息，并填充到Slot中。
+When the Project is released and deployed on the Web through Web link, you can use [Slot default value](/docs/tutorial/slot_config/#default-value) to read logged-in user information and fill it in the Slot.
+Based on [IT Helpdesk From](/docs/tutorial/form/), the user information can be obtained and filled in the Slot.
 
-基于[IT Helpdesk From](/docs/tutorial/form/)实现获取用户信息并填充到Slot中。
+## Result
 
-### 实现效果
+1. The welcome message contains `name`
 
-1、欢迎语包含`name`
+2. There is no need to repeatedly ask `mail` when collecting feedback information
 
-2、收集反馈信息时无需重复询问`mail`
+3. Output `name` and `mail` at the end
 
-3、结束时输出`name`和 `mail`
+### Steps
+1. Configure the variables to read the `name` and `email` of the currently logged in user from Local storage.
+2. The deployed Web page writes `name` and `email` in Local storage.
+3. Quote `name` and `email` in the welcome message and where needed.
 
-### 步骤
-1、在变量中配置从Local storage种读取当前登录用户的`name`和`email`。
-2、部署的 Web页面在Local storage种写入`name`和`email`。
-3、在欢迎语及需要用到的地方引用`name`和`email`
-
-## 实现
-1、配置需要填充的系统变量: 在`Project View-Slots`中创建`name`和`email`并完成默认值配置
+## accomplish
+1. Configure the system variables that need to be filled in: Create `name` and `email` in `Project View-Slots` and complete the default value configuration
 <table>
-  <tr>
-    <td><img src="/assets/images/advanced_control/fill_slot/fill-slot-02.png" alt="Image 1 description"></td>
-    <td><img src="/assets/images/advanced_control/fill_slot/fill-slot-03.png" alt="Image 2 description"></td>
-  </tr>
+   <tr>
+     <td><img src="/assets/images/advanced_control/fill_slot/fill-slot-02.png" alt="Image 1 description"></td>
+     <td><img src="/assets/images/advanced_control/fill_slot/fill-slot-03.png" alt="Image 2 description"></td>
+   </tr>
 </table>
 
 
-2、修改欢迎语，展示用户名称
+2. Modify the welcome message and display the user's name
 
 > `Hello {name}, I am your intelligent assistant. What can I do for you?`
 
 ![img_5.png](/assets/images/advanced_control/fill_slot/fill-slot-04.png)
 
-3、输出`name`和`email`
+3. Output `name` and `email`
 ![img_6.png](/assets/images/advanced_control/fill_slot/fill-slot-05.png)
 
-保存后重新发布。
+Save and re-release.
 
-## 测试
-创建会话后，欢迎语中出现了配置的`name`: PromptAI-User
+## Run
+After the session is created, the configured `name` appears in the welcome message: PromptAI-User
 
 ![img_7.png](/assets/images/advanced_control/fill_slot/fill-slot-06.png)
 
-收集过程中未询问`email`,收集完成后输出自动填充的`email`和`name`
-
+`email` was not asked during the collection process, and the automatically filled `email` and `name` were output after the collection was completed.
 ![img_7.png](/assets/images/advanced_control/fill_slot/fill-slot-07.png)
 
 

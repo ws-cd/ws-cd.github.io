@@ -4,130 +4,127 @@ title: Web Knowledge Base
 parent: Quick Start
 nav_order: 1
 ---
-# 基于Web与FAQ快速构建企业知识库
-欢迎使用PromptAI！此快速入门指南将指导您如何通过Web(URL)和FAQ构建企业知识库。
+# Quickly build an enterprise Knowledge Base based on Web and FAQ
+Welcome to PromptAI! This quick start guide will guide you on how to build an enterprise knowledge base through the Web (URL) and FAQ.
 
-本文使用PromptAI[帮助文档](https://doc.promptai.us/docs/about/) 作为Web来源，同时添加一些常用的FAQ。
-构建完成后可通过 PromptAI 提供的ChatBot直接进行对话, 仅需少许输入与点击操作。
+This article uses PromptAI [Help Document](https://doc.promptai.us/docs/about/) as the web source, and also adds some commonly used FAQs.
+After the construction is completed, the conversation can be conducted directly through the ChatBot provided by PromptAI, which requires only a few inputs and clicks.
 
-## 准备工作
-1、注册与登录
+# Preparation
+1. Registration and login
 
-如果您暂时没用PromptAI账号，请[点击注册](https://app.promptai.us/register) 通过邮件注册。如您已有账号， [点击登录](https://app.promptai.us/login) 进行登录。
+If you do not have a PromptAI account temporarily, please [click to register](https://app.promptai.us/register) to register via email. If you already have an account, [Click to log in](https://app.promptai.us/login) to log in.
 
-  
-## 构建与管理知识库
-1、创建项目
+# Build and manage knowledge base
+1. Create a project
 
-登录系统后，在右上角点击进行"Create Project"进行项目创建。
+After logging in to the system, click "Create Project" in the upper right corner to create a project.
 
-这里我们输入必要的信息：
-- 名称: PromptAI Helper
-- 描述：PromptAI documents chatbot
-- 欢迎语：Welcome to using PromptAI ! I can answer your related questions.
+Here we enter the necessary information:
+- Name: PromptAI Helper
+- Description: PromptAI documents chatbot
+- Welcome: Welcome to using PromptAI! I can answer your related questions.
 
 ![img.png](/assets/images/quick_start/kb/kb-01.png)
 
-2、添加Web知识库
-进入项目后，依次点击："Knowledge Base" - "Web" 进入 Web 知识库管理界面
+2. Add Web knowledge base
+After entering the project, click: "Knowledge Base" - "Web" to enter the Web knowledge base management interface
 
 ![img_1.png](/assets/images/quick_start/kb/kb-02.png)
 
-点击"Add"可进入Web添加界面,在URL中输入PromptAI帮助文档的首页：https://doc.promptai.us/docs/about/
+Click "Add" to enter the Web addition interface, and enter the homepage of the PromptAI help document in the URL: https://doc.promptai.us/docs/about/
 
 ![img_2.png](/assets/images/quick_start/kb/kb-03.png)
 
-PromptAI帮助文档由多个页面构成，所以需要解析其他帮助页面。点击"Parse"按钮可进行解析，在下方可看到解析后的页面地址。
+The PromptAI help document consists of multiple pages, so other help pages need to be parsed. Click the "Parse" button to parse, and you can see the parsed page address below.
 
-过滤：
-- 使用"Filer"通过关键字对链接筛选
-- Url左侧的选择框
+filter:
+- Use "Filer" to filter links by keywords
+-Select box to the left of Url
 
-
-这里我们默认使用全选，点击右下角"OK"即可。
+Here we use Select All by default, just click "OK" in the lower right corner.
 
 ![img_3.png](/assets/images/quick_start/kb/kb-04.png)
 
-接下来系统将自动解析页面，进行知识库初始化。
+Next, the system will automatically parse the page and initialize the knowledge base.
 
 ![img_4.png](/assets/images/quick_start/kb/kb-05.png)
 
-
-初始化完成后，所有Web状态变为"complete"
+After initialization is completed, all web statuses change to "complete"
 
 ![img_6.png](/assets/images/quick_start/kb/kb-06.png)
 
-3、添加FAQ知识库
-点击左侧："FAQ" 进入FAQ管理界面
+3. Add FAQ knowledge base
+Click on the left: "FAQ" to enter the FAQ management interface
 
 ![img_5.png](/assets/images/quick_start/kb/kb-07.png)
 
-这里我们添加第一个FAQ来回答 "Who are you?" 这个问题.
+Here we add the first FAQ to answer the question "Who are you?"
 
-- User Question: 用户可能会询问的问题
-- Bot  Response: 展示的回答
+- User Question: Questions that users may ask
+- Bot Response: displayed answer
 
-点击右上角保存即可。
+Click the save button in the upper right corner to save.
 
 ![img_7.png](/assets/images/quick_start/kb/kb-08.png)
 
-*更多 FAQ示例请访问[FAQ](/docs/tutorial/faq/)*
+*For more FAQ examples, please visit [FAQ](/docs/tutorial/faq/)*
 
-## 发布与对话
-经过简单的两个步骤，我们完成了知识库的构建：
-- 添加并解析PromptAI 文档：https://doc.promptai.us/docs/about/
-- 添加FAQ：Who are you?
+## Release and Conversation
+After two simple steps, we completed the construction of the knowledge base:
+- Add and parse PromptAI documentation: https://doc.promptai.us/docs/about/
+- Added FAQ: Who are you?
 
-### 发布
-接下来进行最后的发布流程：依次点击："Project Tool" - "Release" 进入发布管理界面
+### Release
+Next, proceed to the final release process: click: "Project Tool" - "Release" to enter the release management interface
 ![img_9.png](/assets/images/quick_start/kb/kb-09.png)
 
-接下来点击"Faq"将 Faq 选中，最后点击"Click to release"上方的图标进行发布。
+Next click "Faq" to select the Faq, and finally click the icon above "Click to release" to publish.
 
 ![img_11.png](/assets/images/quick_start/kb/kb-10.png)
 
-数秒后发布成功并弹出对话框：
+After a few seconds, the publication is successful and a dialog box pops up:
 ![img_12.png](/assets/images/quick_start/kb/kb-11.png)
 
-### 对话
+### Run
 
-接下来我们试试对话效果
-- 询问: who are yor?
-- 询问： What PromptAI can do?
+Next let’s try the dialogue
+- Ask: who are yor?
+- Ask: What PromptAI can do?
 
 ![img_13.png](/assets/images/quick_start/kb/kb-12.png)
 
-For now, 我们的 PromptAI Helper 构建已完成。仅需少数几步输入与点击就完成知识库的构建。
-## 报表
+For now, our PromptAI Helper build is complete. It only takes a few steps of input and clicks to complete the construction of the knowledge base.
 
-PromptAI对用户提供了报表功能，用户可以查看项目的使用情况，包括访问量、问答量、TopN等。
+## Statistics
+
+PromptAI provides users with a report function, and users can view the usage of the project, including the number of visits, Q&A volume, TopN, etc.
 ![img_14.png](/assets/images/quick_start/kb/kb-13.png)
 
+## Tips
+Not only does it support the Web, PromptAI also supports two other types of knowledge bases: Text and File. Three different types of knowledge bases can be combined to work together to provide a better service experience.
 
-## 使用建议
-不仅支持Web，PromptAI还支持Text和File其他两种类型的知识库。三种不同类型的知识库可结合起来一起工作，提供更好的服务使用体验。
+## FAQ
 
-## 常见问题解答
+1. Can the answers to questions related to the knowledge base be optimized?
+> Knowledge base Q&A is based on LLM’s generation and summary capabilities, and the content of the answer is somewhat unpredictable and singular (text type reply).
+>
+> You can create related questions as a FAQ, and fill in the answers to the FAQ with text, pictures, attachments and other types of answers.
 
-1、知识库相关问题回答可否优化？
-> 知识库问答基于LLM的生成总结能力，回答的内容有一定不可预测性及单一性（text类型回复）。
-> 
-> 可将相关的问题创建为一个FAQ，在FAQ的回答中填入文本、图片及附件等类型的回答。
+step:
 
-步骤：
-
-- 在报表中查找用户输入
+- Find user input in statistics
 
 ![img.png](/assets/images/quick_start/kb/kb-14.png)
 
-- 创建 FAQ
+- Create FAQ
 
-这里基于 Web 回复添加 PromptAI 的 logo
+Here the PromptAI logo is added based on the web reply.
 
 ![img_1.png](/assets/images/quick_start/kb/kb-15.png)
 
-- 发布与对话
+- Release and run
 
-输入类似的问题，回答已由FAQ进行回复。
+Enter a similar question and the question will be answered by FAQ.
 
 ![img_2.png](/assets/images/quick_start/kb/kb-16.png)

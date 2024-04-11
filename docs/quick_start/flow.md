@@ -6,58 +6,61 @@ nav_order: 2
 ---
 # IT Helpdesk
 
-基于[Web Knowledge Base](/docs/quick_start/knowledge_base/) 拓展实现IT Helpdesk功能。
+Based on [Web Knowledge Base](/docs/quick_start/knowledge_base/), expand and implement IT Helpdesk functions.
 
-*IT Helpdesk: 收集用户的email和问题并自动生成工单，当出现Fallback时，用户可一键提交工单*
+*IT Helpdesk: Collects users’ emails and questions and automatically generates tickets. When a Fallback occurs, users can submit work orders with one click*
 
-功能清单：
-- 可自动获取到登录用户的`name`和`email`
-- 用户登录后，打开Chatbot框可展示`name`
-- Fallback文本可关联Service Flow创建工单
-- 创建工单时无需重复获取用户的`email`
+Feature list:
+- Can automatically obtain the `name` and `email` of the user logged in 
+- After the user logs in, open the Chatbot box to display `name`
+- Fallback text can be associated with Service Flow to create work orders
+- No need to repeatedly obtain the user's `email` when creating a work order
 
-## 创建Service Flow
-Service flow 可收集用户问题，并自动生成工单。
+## Create Service Flow
+
+Service flow collects user questions and automatically generates tickets.
+
 ![img.png](/assets/images/quick_start/flow/flow-01.png)
 
-具体实现：
-- [文本教程](/docs/tutorial/form/)
-- [视频教程](/docs/example/form/)
+Implementation:
+- [Text tutorial](/docs/tutorial/form/)
+- [Video Tutorial](/docs/example/form/)
 
-## 自动加载用户名
-使用[Slot default value](/docs/tutorial/slot_config/#default-value) 读取已登录用户信息填充到Slot中。
+## Automatically load username
+Use [Slot default value](/docs/tutorial/slot_config/#default-value) to read the logged in user information and fill it into the Slot.
 
 ![fill-slot-06.png](/assets/images/quick_start/flow/flow-02.png)
 
-当用户打开对话框时可展示当前用户的用户名。
+Displays the current user's username when the user opens the dialog box.
 
-具体实现
-- [文本教程](/docs/advance_control/fill_slots/)
+Implementation
+- [Text tutorial](/docs/advance_control/fill_slots/)
 
-填充结果：
+Slot values:
 - name : PromptAI-User
 - email: info@promptai.us
 
 ## Fallback
-当用户输入问题无法匹配到任何问题时，用户可选择提交工单。
 
-### Fallback连接到Service Flow
-1、依次点击`Overview-Fallback-Buttons for fallbacks-Add`为 fallback 添加Service Flow按钮
+When the user inputs a question that cannot match any question, the user can choose to submit a ticket.
+
+### Fallback connects to Service Flow
+1. Click `Overview-Fallback-Buttons for fallbacks-Add` to add Service Flow button to fallback.
 
 ![img.png](/assets/images/quick_start/flow/flow-03.png)
 
-2、修改Service Flow直接进入提交工单From
+2. Modify Service Flow and go directly to submit work orders From
 ![img_1.png](/assets/images/quick_start/flow/flow-04.png)
 
-3、修改Bot节点，展示`name`和`email`
+3. Modify the Bot node to display `name` and `email`
 ![img.png](/assets/images/quick_start/flow/flow-05.png)
 
-## 对话
-实现效果：
-- 1、自动获取到登录用户的`name`和`email`
-- 2、登录用户在欢迎语中展示`name`：PromptAI-User
-- 3、点击Fallback下方的`Service`按钮可直接提交工单
-- 4、提交工单是未重复询问`email`, 提交后展示自动填充的`info@promptai.us`
+## Run
+Realization effect:
+- 1. Automatically obtain the `name` and `email` of the logged in user
+- 2. The logged-in user displays `name` in the welcome message: PromptAI-User
+- 3. Click the `Service` button below Fallback to submit a work order directly
+- 4. Submitting a work order does not ask for `email` repeatedly. After submission, the automatically filled `info@promptai.us` is displayed.
 
 <table>
   <tr>
