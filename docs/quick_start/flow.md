@@ -8,13 +8,13 @@ nav_order: 2
 
 Based on [Web Knowledge Base](/docs/quick_start/knowledge_base/), expand and implement IT Helpdesk functions.
 
-*IT Helpdesk: Collects users’ emails and questions and automatically generates tickets. When a Fallback occurs, users can submit work orders with one click*
+*IT Helpdesk: Collects users’ emails and questions and automatically generates tickets. When a Fallback occurs, users can easily submit a ticket*
 
 Feature list:
 - Can automatically obtain the `name` and `email` of the user logged in 
 - After the user logs in, open the Chatbot box to display `name`
-- Fallback text can be associated with Service Flow to create work orders
-- No need to repeatedly obtain the user's `email` when creating a work order
+- Fallback text can be associated with Service Flow to create tickets
+- No need to repeatedly obtain the user's `email` when creating a ticket
 
 ## Create Service Flow
 
@@ -49,7 +49,7 @@ When the user inputs a question that cannot match any question, the user can cho
 
 ![img.png](/assets/images/quick_start/flow/flow-03.png)
 
-2. Modify Service Flow and go directly to submit work orders From
+2. Modify Service Flow and go directly to submit tickets From
 ![img_1.png](/assets/images/quick_start/flow/flow-04.png)
 
 3. Modify the Bot node to display `name` and `email`
@@ -59,8 +59,8 @@ When the user inputs a question that cannot match any question, the user can cho
 Realization effect:
 - 1. Automatically obtain the `name` and `email` of the logged in user
 - 2. The logged-in user displays `name` in the welcome message: PromptAI-User
-- 3. Click the `Service` button below Fallback to submit a work order directly
-- 4. Submitting a work order does not ask for `email` repeatedly. After submission, the automatically filled `info@promptai.us` is displayed.
+- 3. Click the `Service` button below Fallback to submit a ticket directly
+- 4. Submitting a ticket does not ask for `email` repeatedly. After submission, the automatically filled `info@promptai.us` is displayed.
 
 <table>
   <tr>
