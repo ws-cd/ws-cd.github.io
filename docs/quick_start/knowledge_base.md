@@ -4,18 +4,15 @@ title: Web Knowledge Base
 parent: Quick Start
 nav_order: 1
 ---
-# Quickly build an enterprise Knowledge Base based on Web and FAQ
-Welcome to PromptAI! This quick start guide will guide you on how to build an enterprise knowledge base through the Web (URL) and FAQ.
-
-This article uses PromptAI [Help Document](https://doc.promptai.us/docs/about/) as the web source, and also adds some commonly used FAQs.
-After the construction is completed, the conversation can be conducted directly through the ChatBot provided by PromptAI, which requires only a few inputs and clicks.
+# Quickly add a knowledge source using the Web (URL) and FAQ
+As example, we can use PromptAI's [Help Document](https://doc.promptai.us/docs/about/) as the knowledge source, add a few frequently asked FAQs, and launch a chatbot. 
 
 # Preparation
 1. Registration and login
 
-If you do not have a PromptAI account temporarily, please [click to register](https://app.promptai.us/register) to register via email. If you already have an account, [Click to log in](https://app.promptai.us/login) to log in.
+If you do not have a PromptAI account, please [click to register](https://app.promptai.us/register) to create account. Otherwise, [Click to log in](https://app.promptai.us/login) to log in.
 
-# Build and manage knowledge base
+# Add and manage a knowledge source
 1. Create a project
 
 After logging in to the system, click "Create Project" in the upper right corner to create a project.
