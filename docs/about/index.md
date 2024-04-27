@@ -7,7 +7,7 @@ has_children: false
 # Welcome to Prompt AI
 {: .no_toc .header }
 
-We present PromptDialog, an integrated development (IDE) and operation environment (DevOps) to enable rapid development and delivery of AI assistants, aka, chatbots.
+We present PromptDialog, an LLMs-native integrated development (IDE) and operation environment (DevOps) to enable rapid development and delivery of AI assistants, aka, chatbots.
 
 PromptDialog supports LLMs including ChatGPT and GPT4, together with a design/testing/deployment environment (an alternative of Rasa-X, Rasa-Pro, and Rasa Studio).  With PromptDialog, we aim to bring you an AI experience with the latest LLMs technology and significant reduction (90%) of development cost.
 When you are using Rasa Open Source, you might be disappointed by the lack of Large Language Models’ support (LLMs) and the missing of GUIs that provides low code user interface for flow design.  When you are using LLMs, you might be concerned on how to embed your own business logic in LLMs.  This is exactly what we experienced when building AI assistants for financial institutes and car manufacturers.  PromptDialog is an LLMs-native AI assistant development environment, meaning it builds everything on LLMs including dialog flow, knowledge base, and dialog state management.  Using this architecture, your assistant's performance will improve with the latest advancements in LLMs (both proprietary and open source).  And the most important, it is free!  Here are a few highlights:
