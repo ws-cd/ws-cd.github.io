@@ -1,35 +1,24 @@
 ---
 layout: en
-title: Web Knowledge Base
+title: Website Assistant
 parent: Quick Start
 nav_order: 1
 ---
-# Quickly add a knowledge source using the Web (URL) and FAQ
-As example, we can use PromptAI's [Help Document](https://doc.promptai.us/docs/about/) as the knowledge source, add a few frequently asked FAQs, and launch a chatbot. 
-
-# Preparation
-1. Registration and login
-
+# Quickly add a knowledge base using the Web (URL) and FAQ
+We take PromptAI's [Help Document](https://doc.promptai.us/docs/about/) as a sample knowledge source, add a few frequently asked FAQs, and launch a chatbot. 
 If you do not have a PromptAI account, please [click to register](https://app.promptai.us/register) to create account. Otherwise, [Click to log in](https://app.promptai.us/login) to log in.
 
-# Add and manage a knowledge source
-1. Create a project
-
-After logging in to the system, click "Create Project" in the upper right corner to create a project.
-
-Here we enter the necessary information:
-- Name: PromptAI Helper
-- Description: PromptAI documents chatbot
-- Welcome: Welcome to using PromptAI! I can answer your related questions.
+After logging in to the system, click "Create Project" in the upper right corner to create a project. Please input the project information there.  For example, 
+- Name: Website Assistant
+- Description: Help cutomers who are browsing the website of PromptAI
+- Welcome: Welcome to PromptAI! Is there any question I can assist you with?
 
 ![img.png](/assets/images/quick_start/kb/kb-01.png)
 
-2. Add Web knowledge base
-After entering the project, click: "Knowledge Base" - "Web" to enter the Web knowledge base management interface
+2. Add the entire website as a knowledge source
+After entering the project, click: "Knowledge Base" - "Web" - "Add" to to enter the url of the website your customer would like to query. 
 
 ![img_1.png](/assets/images/quick_start/kb/kb-02.png)
-
-Click "Add" to enter the Web addition interface, and enter the homepage of the PromptAI help document in the URL: https://doc.promptai.us/docs/about/
 
 ![img_2.png](/assets/images/quick_start/kb/kb-03.png)
 
