@@ -8,15 +8,14 @@ nav_order: 1
 We take PromptAI's [Help Document](https://doc.promptai.us/docs/about/) as a sample knowledge source, add a few frequently asked FAQs, and launch a website assistant. 
 If you do not have a PromptAI account, please [click to register](https://app.promptai.us/register) to create account. Otherwise, [Click to log in](https://app.promptai.us/login) to log in.
 
-After logging in to the system, click "Create Project" in the upper right corner. Please input the project information, e.g., 
+1. After logging in to the system, click "Create Project" in the upper right corner. Please input the project information, e.g., 
 - Name: PromptAI Website Assistant
 - Description: Help customers who are searching the PromptAI website
 - Welcome: Welcome to PromptAI! Is there any question I can assist you with?
 
 <!-- ![img.png](/assets/images/quick_start/kb/kb-01.png) -->
 
-2. Add the entire website as a knowledge source
-After entering the project, click: "Knowledge Base" - "Web" - "Add" to to enter the url of the website your customer would like to query. 
+2. Add the entire website as a knowledge source: After entering the project, click "Knowledge Base" - "Web" - "Add" to to add the url of the website your customers would like to query. 
 
 ![img_1.png](/assets/images/quick_start/kb/kb-02.png)
 
