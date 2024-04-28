@@ -1,6 +1,6 @@
 ---
 layout: en
-title: Website Assistant
+title: PromptAI Assistant
 parent: Quick Start
 nav_order: 1
 ---
