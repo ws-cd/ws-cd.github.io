@@ -4,7 +4,7 @@ title: Website Assistant
 parent: Quick Start
 nav_order: 1
 ---
-# Quickly add a knowledge base using the Web (URL) and FAQ
+# Quickly build a website assistant using the Web (URL) and FAQ
 We take PromptAI's [Help Document](https://doc.promptai.us/docs/about/) as a sample knowledge source, add a few frequently asked FAQs, and launch a chatbot. 
 If you do not have a PromptAI account, please [click to register](https://app.promptai.us/register) to create account. Otherwise, [Click to log in](https://app.promptai.us/login) to log in.
 
