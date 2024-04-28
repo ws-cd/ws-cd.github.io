@@ -21,8 +21,9 @@ If you do not have a PromptAI account, please [click to register](https://app.pr
 
 ![img_2.png](/assets/images/quick_start/kb/kb-03.png)
 
-The PromptAI help document consists of multiple pages, so other help pages need to be parsed. Click the "Parse" button to parse, and you can see the parsed page address below.
+The PromptAI help document consists of multiple pages. Click the "Parse" button to parse the webpages and build a knowledge base for question answering. 
 
+<!--
 filter:
 - Use "Filer" to filter links by keywords
 -Select box to the left of Url
@@ -39,15 +40,17 @@ After initialization is completed, all web statuses change to "complete"
 
 ![img_6.png](/assets/images/quick_start/kb/kb-06.png)
 
-3. Add FAQ knowledge base
-Click on the left: "FAQ" to enter the FAQ management interface
+-->
+
+3. Add an FAQ knowledge base
+Click "FAQ" in the left pane. 
 
 ![img_5.png](/assets/images/quick_start/kb/kb-07.png)
 
-Here we add the first FAQ to answer the question "Who are you?"
+Here we add the first FAQ to answer a frequent question "Who are you?"
 
 - User Question: Questions that users may ask
-- Bot Response: displayed answer
+- Bot Response: Predefined answer
 
 Click the save button in the upper right corner to save.
 
@@ -56,12 +59,12 @@ Click the save button in the upper right corner to save.
 *For more FAQ examples, please visit [FAQ](/docs/tutorial/faq/)*
 
 ## Release and Conversation
-After two simple steps, we completed the construction of the knowledge base:
-- Add and parse PromptAI documentation: https://doc.promptai.us/docs/about/
-- Added FAQ: Who are you?
+After two simple steps, we completed the construction of a knowledge base:
+- Added and parsed the PromptAI help documentation: https://doc.promptai.us/docs/about/
+- Added an FAQ: Who are you?
 
 ### Release
-Next, proceed to the final release process: click: "Project Tool" - "Release" to enter the release management interface
+Next, proceed to release the bot: click "Project Tool" - "Release" in the left pane to enter the bot release management interface
 ![img_9.png](/assets/images/quick_start/kb/kb-09.png)
 
 Next click "Faq" to select the Faq, and finally click the icon above "Click to release" to publish.
@@ -79,15 +82,14 @@ Next let’s try the dialogue
 
 ![img_13.png](/assets/images/quick_start/kb/kb-12.png)
 
-For now, our PromptAI Helper build is complete. It only takes a few steps of input and clicks to complete the construction of the knowledge base.
 
 ## Statistics
 
-PromptAI provides users with a report function, and users can view the usage of the project, including the number of visits, Q&A volume, TopN, etc.
+PromptAI provides users with a report function, and users can view the usage of the assistant, including the number of visits, Q&A volume, TopN, etc.
 ![img_14.png](/assets/images/quick_start/kb/kb-13.png)
 
 ## Tips
-Not only does it support the Web, PromptAI also supports two other types of knowledge bases: Text and File. Three different types of knowledge bases can be combined to work together to provide a better service experience.
+Not only does it support webpages, PromptAI also supports other types of knowledge bases: Text and File. These different types of knowledge bases can be combined to answer user questions. 
 
 ## FAQ
 
