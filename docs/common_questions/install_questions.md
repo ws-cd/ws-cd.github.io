@@ -1,3 +1,5 @@
+<!--
+
 ---
 layout: en
 title: Install Questions
@@ -22,14 +24,17 @@ The agent not in use can be uninstalled through the "Manage Agents" management p
 
 ![install_questions1.png](/assets/images/common_questions/install_questions1.png)
 
+-->
 <!--- 正在使用的Agent不能通过"Manage Agents"管理面板删除，需要在安装机器中执行卸载命令。 当卸载命令执行完成后，"Manage Agents"中的Agent将会被删除。
 --->
 
+<!--
 The agent in use cannot be deleted through the "Manage Agents" management panel.  The uninstall command needs to be executed on the machine where the agent is installed.  When the uninstallation command is executed, the agent in "Manage Agents" will be deleted.
 
 - Note: You need to keep the network unobstructed when executing the uninstall command。 
 
 ### How to upgrade the agent?
+--->
 <!---
 - 登录安装Agent的机器
 - 在shell中执行'~/zbot/install_agent.sh upgrade'
@@ -37,12 +42,15 @@ The agent in use cannot be deleted through the "Manage Agents" management panel.
 - 等待升级完成
 --->
 
+<!--
+
 - Log in to the machine where the agent is installed
 - Execute `~/zbot/install_agent.sh upgrade` in the shell
 - Enter `y` to confirm the upgrade [the service will be temporarily unavailable during the update]
 - Wait for the upgrade to complete
 
-
+-->
+<!---
 ```shell
 # ~/zbot/install_agent.sh upgrade
 Nvidia GPU found.
@@ -56,6 +64,8 @@ xxxxx
 ```
 
 ### How to uninstall the agent locally?
+
+--->
 <!---
 - 登录安装Agent的机器
 - 在shell中执行'promptai uninstall'
@@ -64,7 +74,7 @@ xxxxx
 
 注意：此过程需要保持网络通畅，否则将导致无法成功卸载.
 --->
-
+<!---
 - Log in to the machine where the agent is installed
 - Execute `~/zbot/install_agent.sh uninstall` in the shell
 - Enter `y` to confirm uninstallation
@@ -78,3 +88,4 @@ start uninstall PromptAI Agent...
 This action will remove PromptAI Agent, continue (y/n)? y
 finish uninstall PromptAI Agent
 ```
+--->
