@@ -18,30 +18,14 @@ Using LLMs can improve conversation quality with fewer examples.
 
 You can config your OpenAI API Key on our platform or use the tokens we purchased from OpenAI. If you have other need, please contact us: [info@promptai.us](mailto:info@promptai.us)
 
-## LLMs Tokens
-<!--开启后将在训练/对话阶段消耗Token，目前系统为所有用户赠送了`100,000`Token。-->
-
-Tokens will be consumed during the training and conversations. Currently,  `100,000` free tokens will be given to each registered user to start.
-
-<!--
-token消耗:
-- FAQ的Embedding
-- Flow的Embedding
-- Knowledge Base Embedding
-- 对话时的输入Embedding
-- 对话
--->
-
-Where OpenAI tokens will be used:
-- FAQ embedding
-- Text embedding in Knowledge Bases
-- User utterance embedding in Flows
-- User utterance embedding during conversations
+Tokens will be consumed during the training and conversations. Currently,  `100,000` free tokens will be given to each registered user to start. PromptAI is LLMs-native; it will leverage LLMs everywhere to improve the conversation quality.  For example, OpenAI tokens will be used:
+- Text embedding
+- Flow control
+- Slot filling
   
 For more details please visit:[Pricing Page](https://promptai.us/en/pricing)
 
-## Enable LLMs
-Please debug/run/re-publish your bot to make the new setting effective.
+There are a few options Please debug/run/re-publish your bot to make the new setting effective.
 
 ![use_llms0.png](/assets/images/use_llms/use_llms0.png)
 
