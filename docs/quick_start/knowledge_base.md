@@ -13,7 +13,7 @@ After logging in to the system, click "Create Project" in the upper right corner
 - Description: Help customers who are searching the PromptAI website
 - Welcome: Welcome to PromptAI! Is there any question I can assist you with?
 
-<! --- ![img.png](/assets/images/quick_start/kb/kb-01.png) --->
+<!-- ![img.png](/assets/images/quick_start/kb/kb-01.png) -->
 
 2. Add the entire website as a knowledge source
 After entering the project, click: "Knowledge Base" - "Web" - "Add" to to enter the url of the website your customer would like to query. 
