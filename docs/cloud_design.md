@@ -17,4 +17,4 @@ The editing environment offers a low-code user interface, enabling you to quickl
 
 Please refer to the detailed tutorials for FAQ construction and dialog flow design.
 - [FAQ](/docs/tutorial/faq/)
-- [Dialog Flow Design](/docs/tutorial/flow/)
+- [Dialog Flow](/docs/tutorial/flow/)
