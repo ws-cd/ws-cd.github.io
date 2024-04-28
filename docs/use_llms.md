@@ -4,7 +4,7 @@ title: Use LLMs
 nav_order: 4
 ---
 
-<!-- 使用LLMs可以减少标注、提高对话准确率。 -->
+<!-- 使用LLMs可以减少标注、提高对话准确率。
 
 Using LLMs can improve conversation quality with fewer examples.
 
@@ -14,6 +14,7 @@ Using LLMs can improve conversation quality with fewer examples.
 |      FAQ       |  ✅  |  ✅  |        |
 |      Flow      |  ✅  |  ✅  |      |
 | Knowledge Base |  ✅  |  ❌  | Only support LLMs, using Retrieval-Augmented Generation (RAG)|
+ -->
 
 You can config your OpenAI API Key on our platform or use the tokens we purchased from OpenAI. If you have other need, please contact us: [info@promptai.us](mailto:info@promptai.us)
 
