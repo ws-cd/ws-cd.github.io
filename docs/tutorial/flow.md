@@ -29,7 +29,7 @@ The followings are a few options you can make for bot reply.
 | After the user message arrives| If needed, [reset slot value](/docs/advance_control/reset_slot/)               |
 | Conditional Response          | Give different responses according to [conditions](/docs/advance_control/conditional_response/)     |
 
-There are five different kinds of replies a bot can make:
+### There are five different kinds of replies a bot can make:
 
 - Text       : Send a text message to the user
 - Image      : Send a text message with images
