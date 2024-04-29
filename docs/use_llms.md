@@ -1,9 +1,11 @@
+<!---
+
 ---
 layout: en
 title: Use LLMs
 nav_order: 4
 ---
-
+-->
 <!-- 使用LLMs可以减少标注、提高对话准确率。
 
 Using LLMs can improve conversation quality with fewer examples.
@@ -15,7 +17,7 @@ Using LLMs can improve conversation quality with fewer examples.
 |      Flow      |  ✅  |  ✅  |      |
 | Knowledge Base |  ✅  |  ❌  | Only support LLMs, using Retrieval-Augmented Generation (RAG)|
  -->
-
+<!---
 You can config your OpenAI API Key on our platform or use the tokens we purchased from OpenAI. If you have other need, please contact us: [info@promptai.us](mailto:info@promptai.us)
 
 Tokens will be consumed during the training and conversations. Currently,  `100,000` free tokens will be given to each registered user to start. PromptAI is LLMs-native; it will leverage LLMs everywhere to improve the conversation quality.  For example, OpenAI tokens will be used:
@@ -28,6 +30,7 @@ For more details please visit:[Pricing Page](https://promptai.us/en/pricing)
 There are a few options Please debug/run/re-publish your bot to make the new setting effective.
 
 ![use_llms0.png](/assets/images/use_llms/use_llms0.png)
+ -->
 
 <!--
 1、用户问答(FAQ) 该功能下有两个配置小项：
@@ -39,7 +42,7 @@ There are a few options Please debug/run/re-publish your bot to make the new set
 
 *可单独开启/关闭，设置变更后在新创建的会话中生效。*
 -->
-
+<!--
 ### FAQ:
 1.There are one option when activating LLMs on FAQ:
 
@@ -59,7 +62,7 @@ There are a few options Please debug/run/re-publish your bot to make the new set
 Pretrained LLMs such as ChatGPT and GPT-4 will dramatically improve conversation quality.  In zero or few shot training,  ChatGPT performs much better than the DIET algorithm in RASA in terms of intent classification and entity recognition. 
 
 ## Common Questions
-
+-->
 <!--
 ### 1、Token消耗用完后能对话吗？
 > 不能，此时对话将收到提示信息：
@@ -80,7 +83,7 @@ Pretrained LLMs such as ChatGPT and GPT-4 will dramatically improve conversation
 ### 5、关闭LLMs模式后需要重新训练吗？
 > Yes
 -->
-
+<!--
 ### 1. Can the bot have a conversation after tokens are used up?
 > No, the conversation will not continue:
 ```text
@@ -103,3 +106,5 @@ We're sorry, but due to insufficient funds in the merchant's account, we are una
 > To learn more about how tokens work:
 > 
 > Experiment with OpenAI interactive [Tokenizer tool](https://beta.openai.com/tokenizer).
+
+-->
