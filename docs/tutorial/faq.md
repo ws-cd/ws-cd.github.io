@@ -26,12 +26,31 @@ Please fill multiple examples for the same question, which is required for RASA 
 
 ![faq-03.png](/assets/images/tutorial/faq/faq-03.png)
 
-
 ## Created successfully
 
 ![faq-04.png](/assets/images/tutorial/faq/faq-04.png)
 
-## Training options
-When you train your model, we provide two training options:
-- ChatGPT/GPT4: It employes ChatGPT/GPT4 to do querestion comparison and retrieve answer.  This is an approach we recommend as the designer need not provide many similar questions.
-- Customized BERT model: It can be trained and deployed locally to best protect privacy and has performance between RASA FAQ and ChatGPT. For this option, please contact us [info@promptai.us](mailto:info@promptai.us).
+## Tips
+
+1. Can the answers to questions related to the knowledge base be optimized?
+> Knowledge base Q&A is based on LLM’s generation and summary capabilities, and the content of the answer is somewhat unpredictable and singular (text type reply).
+>
+> You can create related questions as a FAQ, and fill in the answers to the FAQ with text, pictures, attachments and other types of answers.
+
+step:
+
+- Find user input in statistics
+
+![img.png](/assets/images/quick_start/kb/kb-14.png)
+
+- Create FAQ
+
+Here the PromptAI logo is added based on the web reply.
+
+![img_1.png](/assets/images/quick_start/kb/kb-15.png)
+
+- Release and run
+
+Enter a similar question and the question will be answered by FAQ.
+
+![img_2.png](/assets/images/quick_start/kb/kb-16.png)

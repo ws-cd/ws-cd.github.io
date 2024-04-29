@@ -89,29 +89,4 @@ PromptAI provides users with a report function, and users can view the usage of 
 ![img_14.png](/assets/images/quick_start/kb/kb-13.png)
 
 ## Tips
-Not only does it support webpages, PromptAI also supports other types of knowledge bases: Text and File. These different types of knowledge bases can be combined to answer user questions. 
-
-## FAQ
-
-1. Can the answers to questions related to the knowledge base be optimized?
-> Knowledge base Q&A is based on LLM’s generation and summary capabilities, and the content of the answer is somewhat unpredictable and singular (text type reply).
->
-> You can create related questions as a FAQ, and fill in the answers to the FAQ with text, pictures, attachments and other types of answers.
-
-step:
-
-- Find user input in statistics
-
-![img.png](/assets/images/quick_start/kb/kb-14.png)
-
-- Create FAQ
-
-Here the PromptAI logo is added based on the web reply.
-
-![img_1.png](/assets/images/quick_start/kb/kb-15.png)
-
-- Release and run
-
-Enter a similar question and the question will be answered by FAQ.
-
-![img_2.png](/assets/images/quick_start/kb/kb-16.png)
+Not only does it support webpages, PromptAI also supports other types of knowledge bases: Text and File. These different types of knowledge bases can be combined to answer user questions.
