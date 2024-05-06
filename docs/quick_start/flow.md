@@ -24,6 +24,7 @@ Implementation:
 PromptAI可从这两个地方获取到用户的姓名和邮箱，并在Flow中使用他们。
 
 步骤：
+
 1、用户登录系统后，将用户的姓名和邮箱写入Local Storage
 ```text
 name : PromptAI-User
