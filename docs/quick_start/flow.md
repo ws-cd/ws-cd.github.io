@@ -21,7 +21,7 @@ Implementation:
 
 ## Automatically load user's name
 用户登录系统后，可将用户的姓名和邮箱通过key-Value的方式设置到Session Storage或Local Storage中。 
-PromptAI可从这两个地方获取到用户的姓名和邮箱，并在Flow中使用他们。
+PromptAI可从这两个地方获取到用户的姓名和邮箱，并在Flow中使用它们。
 
 步骤：
 
