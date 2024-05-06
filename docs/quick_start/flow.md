@@ -32,7 +32,7 @@ email: info@promptai.us
 
 2、在[Slot default value](/docs/tutorial/slot_config/#default-value) 分别设置`name` 和 `email`
 
-这里key使用,需要与第一步写入Local Storage的 key保持一致。
+* 配置的key需要与写入Local Storage的key保持一致。
 
 <table>
   <tr>
@@ -48,9 +48,9 @@ Implementation
 - [Text tutorial](/docs/advance_control/fill_slots/)
 
 ## Fallback
-当用户输入的问题无法得到回答时，PromptAI将回复配置的默认回复。PromptAI支持在默认回复下方添加一个按钮，链接到 Flow 或FAQ。
+PromptAI支持在默认回复下方添加一个按钮，链接到 Flow 或FAQ。
 
-利用该功能将Fallback与Flow连接起来，当出现Fallback时用户可点击按钮提交工单。
+利用该功能将Fallback与Service Flow连接，当出现Fallback时用户可点击按钮提交工单。
 
 ### Fallback connects to Service Flow
 1. Click `Overview-Fallback-Buttons for fallbacks-Add` to add Service Flow button to fallback.
