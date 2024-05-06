@@ -65,10 +65,10 @@ PromptAI支持在默认回复下方添加一个按钮，链接到 Flow 或FAQ。
 
 ## Run
 Realization effect:
-- 1. Automatically obtain the `name` and `email` of the logged in user
-- 2. The logged-in user displays `name` in the welcome message: PromptAI-User
-- 3. Click the `Service` button below Fallback to submit a ticket directly
-- 4. Submitting a ticket does not ask for `email` repeatedly. After submission, the automatically filled `info@promptai.us` is displayed.
+- Automatically obtain the `name` and `email` of the logged-in user
+- The logged-in user displays `name` in the welcome message: PromptAI-User
+- Click the `Service` button below Fallback to submit a ticket directly
+- Submitting a ticket does not ask for `email` repeatedly. After submission, the automatically filled `info@promptai.us` is displayed.
 
 <table>
   <tr>
