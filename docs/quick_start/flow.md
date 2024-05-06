@@ -42,18 +42,15 @@ email: info@promptai.us
 </table>
 
 
-Use [Slot default value](/docs/tutorial/slot_config/#default-value) to load user information.
-Slot values:
-- name : PromptAI-User
-- email: info@promptai.us
-
 ![fill-slot-06.png](/assets/images/quick_start/flow/flow-02.png)
 
 Implementation
 - [Text tutorial](/docs/advance_control/fill_slots/)
 
 ## Fallback
-When a user inputs a question that cannot get answered confidently, the user can choose to submit a ticket.
+当用户输入的问题无法得到回答时，PromptAI将回复配置的默认回复。PromptAI支持在默认回复下方添加一个按钮，链接到 Flow 或FAQ。
+
+利用该功能将Fallback与Flow连接起来，当出现Fallback时用户可点击按钮提交工单。
 
 ### Fallback connects to Service Flow
 1. Click `Overview-Fallback-Buttons for fallbacks-Add` to add Service Flow button to fallback.
