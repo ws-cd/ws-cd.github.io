@@ -6,8 +6,8 @@ nav_order: 2
 ---
 # IT Helpdesk
 We can expand [the Website Asssitant](/docs/quick_start/knowledge_base/) to include a few IT Helpdesk functions.  For example,
-- Automatically display a user name
-- Submit an ticket if it is not able to answer a user question (Fallback)
+- Automatically display user's name
+- Submit a ticket if it is not able to answer a user question (Fallback)
 - No need to repeatedly obtain the user's `email` when creating a ticket
 
 ## Create a Flow
@@ -19,7 +19,29 @@ Implementation:
 - [Text tutorial](/docs/tutorial/form/)
 - [Video Tutorial](/docs/example/form/)
 
-## Automatically load a user name
+## Automatically load user's name
+用户登录系统后，可将用户的姓名和邮箱通过key-Value的方式设置到Session Storage或Local Storage中。 
+PromptAI可从这两个地方获取到用户的姓名和邮箱，并在Flow中使用他们。
+
+步骤：
+1、用户登录系统后，将用户的姓名和邮箱写入Local Storage
+```text
+name : PromptAI-User
+email: info@promptai.us
+```
+
+2、在[Slot default value](/docs/tutorial/slot_config/#default-value) 分别设置`name` 和 `email`
+
+这里key使用,需要与第一步写入Local Storage的 key保持一致。
+
+<table>
+  <tr>
+    <td><img src="/assets/images/quick_start/flow/flow-09.png" alt=""></td>
+    <td><img src="/assets/images/quick_start/flow/flow-10.png" alt=""></td>
+  </tr>
+</table>
+
+
 Use [Slot default value](/docs/tutorial/slot_config/#default-value) to load user information.
 Slot values:
 - name : PromptAI-User
