@@ -6,7 +6,7 @@ nav_order: 4
 ---
 
 ## Create a dialog flow
-Click `Flows` in the left navigation pane to add a dialog new flow.  Enter the flow name and description in the pop-up dialog box.
+Click `Flows` in the left navigation pane to add a new dialog flow.  Enter the flow name and description in the pop-up dialog box.
 
 ![flow-01.png](/assets/images/tutorial/flow/flow-01.png)
 
@@ -45,7 +45,7 @@ We can add multiple lines of texts to the bot response node or add another bot r
 The bot response node adds multiple text responses, as shown in the figure.
 ![flow-03.png](/assets/images/tutorial/flow/flow-03.png)
 
-The implementation method of adding another bot response node after the current one is shown in the figure.
+Another bot response node can be added after the current one.
 ![flow-04.png](/assets/images/tutorial/flow/flow-04.png)
 
 ## A User Node
