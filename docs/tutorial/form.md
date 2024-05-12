@@ -71,25 +71,22 @@ Add `problem` slot like this:
 ![form-08.png](/assets/images/tutorial/form/form-08.png)
 
 ## Functions
-The function provides methods to validate and change slots during the form collection process. If you need to check the quantity, 
-logic or validity of slots while filling out a form, such as limiting the number of people to no more than 6 people during a restaurant reservation form, 
-or wanting the fruit names entered by users to be converted into scientific names during a fruit purchase process... 
-If you wish to modify a slot, you can use the function feature. Define a function and describe its purpose in the description. 
-Then, specify the involved slot names in the param section. GPT will automatically check and call these functions during the form execution process.
+The function feature enables designers to create methods for validating and modifying slot values during form collection. If you require checks on quantity, logic, or validity of slot values during form completion, such as setting a limit of 6 people for a restaurant reservation form.
+To modify a slot, you could utilize the function feature and define a function with its purpose in the description and list the relevant slot names in the parameter section. GPT will automatically verify and invoke these functions during form filling.
 
 ## Abort
-During the ordering process, the user may exit the conversation
-- Actually, I've changed my mind. I won't buy any fruits today. (Exit From, stop collect information)
+During the form filling process, the user may exit the conversation
+- Oh, I have solved the issue. Thank you. (Hence, interrupt the ticket report process.)
 
 ## Complete
-The `Complete` node handles the completion of the collection form
+After the form is filled, the `Complete` node follows.
 ![form-09.png](/assets/images/tutorial/form/form-09.png)
 
-## The complete flow diagram is as follows:
+## The entire flow diagram is as follows:
 ![form-10.png](/assets/images/tutorial/form/form-10.png)
 ![form-11.png](/assets/images/tutorial/form/form-11.png)
 
-## Test Run
+## Test run
 ![form-12.png](/assets/images/tutorial/form/form-12.png)
 ---
 
