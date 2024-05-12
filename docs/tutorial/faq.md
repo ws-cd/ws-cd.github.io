@@ -21,10 +21,8 @@ Click the `+Add` button on the upper right corner to pop up the question additio
 ![faq-02.png](/assets/images/tutorial/faq/faq-02.png)
 
 ## Fill in question/answer information
-Please fill multiple examples for the same question, which is required for RASA Training. Please make sure: 
-
 - Each question can only be listed once,
-- Each question shall have multiple examples: They are the same question, but asked differently. 
+- Each question could have multiple examples: They are the same question, but asked differently. 
 
 ![faq-03.png](/assets/images/tutorial/faq/faq-03.png)
 
