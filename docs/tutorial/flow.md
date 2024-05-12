@@ -11,7 +11,7 @@ Click `Flows` in the left navigation pane to add a new dialog flow.  Enter the f
 ![flow-01.png](/assets/images/tutorial/flow/flow-01.png)
 
 
-## A Bot Node
+## A bot node
 Click and select `Add Bot Node` or `Edit Node` from the pop-up menu. 
 
 ![flow-02.png](/assets/images/tutorial/flow/flow-02.png)
@@ -39,7 +39,7 @@ The followings are a few options you can make for bot reply.
 
 <mark>Note</mark> that you can use the "{}" curly brace syntax in text replies to utilize Slot values existing in the system.
 
-### Multiple Bot Responses
+### Multiple bot responses
 We can add multiple lines of texts to the bot response node or add another bot response node after the current one. 
 
 The bot response node adds multiple text responses, as shown in the figure.
@@ -67,10 +67,10 @@ The followings are a few options you can make for user utterance.
 | Description                    | Some comments about this intent (optional)|
 | After the user message arrives | If needed, [reset slot value](/docs/advance_control/reset_slot/) based on the user utterance   |
 
-## Complete Dialog Flow
+## Complete a dialog flow
 The dialogue effect is shown below where the file will be displayed in conversation.
 ![flow-07.png](/assets/images/tutorial/flow/flow-07.png)
 
-## Run your dialog flow
+## Run the dialog flow
 You can click `Debug Run` to test your dialog flow.
 ![flow-08.png](/assets/images/tutorial/flow/flow-08.png)
