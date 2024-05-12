@@ -32,17 +32,14 @@ Click the `+Add` button on the upper right corner to pop up the question additio
 
 ## Tips
 
-1. Can the answers to questions related to the knowledge base be optimized?
-> Knowledge base Q&A is based on LLM’s generation and summary capabilities, and the content of the answer is somewhat unpredictable and singular (text type reply).
->
-> You can create related questions as a FAQ, and fill in the answers to the FAQ with text, pictures, attachments and other types of answers.
+1. You can fill in the answers with text, pictures, attachments and other types of data.
 
-step:
-
-- Find user input in statistics
+2. You can find how many times the user asks the question. 
 
 ![img.png](/assets/images/quick_start/kb/kb-14.png)
 
+
+<!--
 - Create FAQ
 
 Here the PromptAI logo is added based on the web reply.
@@ -54,3 +51,5 @@ Here the PromptAI logo is added based on the web reply.
 Enter a similar question and the question will be answered by FAQ.
 
 ![img_2.png](/assets/images/quick_start/kb/kb-16.png)
+
+-->
