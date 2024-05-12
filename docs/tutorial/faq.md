@@ -8,7 +8,7 @@ Each project has a default FAQ (frequently answered questions) module.
 
 <!-- The beta version only allows one FAQ for each project. -->
 
-## FAQ window  
+## FAQ
 
 Click `FAQ` in the left navigation pane.  In the FAQ window, you can add, modify, and delete questions.
 
@@ -21,12 +21,12 @@ Click the `+Add` button on the upper right corner to pop up the question additio
 ![faq-02.png](/assets/images/tutorial/faq/faq-02.png)
 
 ## Fill in question/answer information
-- Each question can only be listed once,
+- Each question can only be listed once.
 - Each question could have multiple examples: They are the same question, but asked differently. 
 
 ![faq-03.png](/assets/images/tutorial/faq/faq-03.png)
 
-## Created successfully
+Question/Answer added successfully
 
 ![faq-04.png](/assets/images/tutorial/faq/faq-04.png)
 
