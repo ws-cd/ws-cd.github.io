@@ -4,7 +4,9 @@ title: FAQ
 parent: Developer's Guide
 nav_order: 3
 ---
-Each project has a default FAQ (frequently answered questions) module.  The beta version only allows one FAQ for each project. 
+Each project has a default FAQ (frequently answered questions) module.  
+
+<!-- The beta version only allows one FAQ for each project. -->
 
 ## FAQ window  
 
