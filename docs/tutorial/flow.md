@@ -52,7 +52,7 @@ The implementation method of adding another bot response node after the current 
 After creating a bot, it will display the flow window. Click the node of bot and here we click `Add User Node`.
 ![flow-05.png](/assets/images/tutorial/flow/flow-05.png)
 
-## Edit a use node
+### Edit a user node
 Click the user utterance; the editing pane will pop up on the right. It is expected that multiple utterances are needed so that the user intent can be classified correctly.
 ![flow-06.png](/assets/images/tutorial/flow/flow-06.png)
 
