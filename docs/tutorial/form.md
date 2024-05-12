@@ -25,32 +25,29 @@ There are other similar scenarios that can be handled by Form:
 - Book air tickets: Book air tickets by obtaining the user's travel time and departure airport.
 - ...
 
-
-## How to use Form?
 Next, we will introduce how to create the example of IT helpdesk mentioned above.
 
-### Create Incident Dialog flow
+Step 1: Create a flow
 ![form-01.png](/assets/images/tutorial/form/form-01.png)
 
-Next, we create a `User` node to start collect information
+Step 2: Create a `User` node to start collect information
 ![form-02.png](/assets/images/tutorial/form/form-02.png)
 
-## Create Incident Form
-Click the `User` node and select `Form` in the pop-up menu and click `Add GPT Form Node`.There are two input fields:
-- Name       : The name of the Form can be set according to the function, here we fill in `Incident`.
-- Description: The Prompt used by GPT tells GPT what the form need to do.
+Step 3: Click the `User` node and select `Form` in the pop-up menu and click `Add GPT Form Node`.There are two input fields:
+- Name       : The name of the Form.
+- Description: The prompt tells GPT about what information needs to be collected.
 
 ![form-03.png](/assets/images/tutorial/form/form-03.png)
 
-Four pieces of information need to be completed after creating `Incident`
+Four pieces of information need to be completed after creating the form. 
 ![form-04.png](/assets/images/tutorial/form/form-04.png)
 
-|  Name        | Required | Desc                                                   |
+|  Name        | Required | Description                                             |
 |--------------|----------|--------------------------------------------------------|
 | Slots        |    Yes   | Slots that need to be collected                        |
-| Functions   |    No    | - |
-| Abort      |    No    | After the from is interrupted  |
-| Complete      |    Yes   | After the form runs successfully                       |
+| Functions   |    Optional    | - |
+| Abort      |    Optional    | After the user decides not to give the information  |
+| Complete      |    Yes   | After the information of the form is collected                      |
   
 ## Slots
 We need to collect `email` and `problem` from users through Slots, and then explain in detail how to add `email`
@@ -61,7 +58,7 @@ Click on the `Slots` node and select `Add Slot` from the pop-up menu
 In the pop-up Slot window, we need to pay attention to the input `Slot Name`、`Slot Question` and `Description`
 - Slot Name     : Fill in the name of the Slot `email` (enter the name and press Enter to create)
 - Slot Question : A sentence to prompt the user to enter the information in the question.
-- Description   : The Prompt used by GPT tells GPT how to extract Slot from user input.
+- Description   : The Prompt tells GPT how to extract the slot value from user input.
 
 More details [Slots Config](/docs/tutorial/slot_config/)
 
