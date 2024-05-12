@@ -8,6 +8,6 @@ After logging in, click the `Create Project` button on the upper right corner to
 
 ![create-project-01.png](/assets/images/tutorial/project/create-project-01.png)
 
-Click the project to enter the project setting interface.
+Click the project to enter the project overview interface.
 
 ![create-project-02.png](/assets/images/tutorial/project/create-project-02.png)
