@@ -31,15 +31,14 @@ Click the `+Add` button on the upper right corner to pop up the question additio
 ![faq-04.png](/assets/images/tutorial/faq/faq-04.png)
 
 ## Tips
+You can fill in the answers with text, pictures, attachments and other types of data.
 
-1. You can fill in the answers with text, pictures, attachments and other types of data.
-
+<!--
 2. You can find how many times the user asks the question. 
 
 ![img.png](/assets/images/quick_start/kb/kb-14.png)
 
 
-<!--
 - Create FAQ
 
 Here the PromptAI logo is added based on the web reply.
