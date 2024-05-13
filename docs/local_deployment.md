@@ -30,7 +30,7 @@ Run the following command in your terminal.
 ```shell
 curl -o install.sh 'https://raw.githubusercontent.com/PromptAI/homepage/main/scripts/install_en.sh' && chmod +x install.sh && ./install.sh
 ```
-*The size of Prompt AI's docker images is around 15 GB. The installation time varies depending on your network speed. Typically, the initial installation takes between 10 to 30 minutes.*
+*The size of Prompt AI's docker images is around 12 GB. The installation time varies depending on your network speed. Typically, the initial installation takes between 10 to 30 minutes.*
 
 When the system is ready, you will see the system information. Please change the admin password immediately. 
 
