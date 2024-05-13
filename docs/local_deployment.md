@@ -56,7 +56,7 @@ Register a PromptAI account:[https://app.promptai.us/](https://app.promptai.us/)
 3、Click the "Create" button you will get a free "Starter" license
 ![license_3.png](/assets/images/local_deployment/license_3.png)
 
-4、Paste your license to Local Env
+4、Add your license
 ![license_4.png](/assets/images/local_deployment/license_4.png)
 
 
