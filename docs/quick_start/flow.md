@@ -20,20 +20,20 @@ Implementation:
 - [Video Tutorial](/docs/example/form/)
 
 ## Automatically load user's name
-用户登录系统后，可将用户的姓名和邮箱通过key-Value的方式设置到Session Storage或Local Storage中。 
-PromptAI可从这两个地方获取到用户的姓名和邮箱，并在Flow中使用它们。
+After the user logs in to the system, the user's name and email address can be set to Session Storage or Local Storage through key-Value.
+PromptAI can obtain the user's name and email address from these two places and use them in Flow.
 
-步骤：
+Steps：
 
-1、用户登录系统后，将用户的姓名和邮箱写入Local Storage
+1. After the user logs in to the system, write the user's name and email address into Local Storage
 ```text
 name : PromptAI-User
 email: info@promptai.us
 ```
 
-2、在[Slot default value](/docs/tutorial/slot_config/#default-value) 分别设置`name` 和 `email`
+2、Set `name` and `email` respectively in [Slot default value](/docs/tutorial/slot_config/#default-value)
 
-* 配置的key需要与写入Local Storage的key保持一致。
+* The configured key needs to be consistent with the key written to Local Storage.
 
 <table>
   <tr>
@@ -49,9 +49,9 @@ Implementation
 - [Text tutorial](/docs/advance_control/fill_slots/)
 
 ## Fallback
-PromptAI支持在默认回复下方添加一个按钮，链接到 Flow 或FAQ。
+PromptAI supports adding a button below the default reply to link to Flow or FAQ.
 
-利用该功能将Fallback与Service Flow连接，当出现Fallback时用户可点击按钮提交工单。
+Use this function to connect Fallback with Service Flow. When Fallback appears, users can click the button to submit a work order.
 
 ### Fallback connects to Service Flow
 1. Click `Overview-Fallback-Buttons for fallbacks-Add` to add Service Flow button to fallback.
