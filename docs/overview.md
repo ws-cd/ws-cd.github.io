@@ -17,17 +17,17 @@ PromptAI provides an intuitive conversation design tool for fast bot creation. I
 <!-- ## 快速开始  -->
 ## Get Start
 <!-- 以下是在云版本中创建第一个对话机器人的例子。（更多例子在[这里](/docs/examples/)可以查看） -->
-Here is an example of creating the first chatboti PromptAI. 
+Here is an example of creating the first PromptAI chatbot. 
 <!-- Here is an example of creating the first chatbot in the cloud version. (Local version examples or more examples can be found [here](/docs/example/)) -->
 
 <!-- 1. 创建第一个项目 -->
-1. Create the first project.
+1. Create the first project
 ![overview0.png](/assets/images/overview/get-start-01.png)
 <!-- 2. 点击完善第一个Bot节点 -->
-2. Create the first dialog flow.
+2. Create the first dialog flow
 ![overview1.png](/assets/images/overview/get-start-02.png)
 <!-- 3. 点击完善第一个Bot节点  -->
-3. Click to complete the flow.
+3. Click to complete the flow
 ![overview2.png](/assets/images/overview/get-start-03.png)
 <!-- 4. 创建一个User节点。 -->
 4. Add a user (intent) node where a user may encounter an IT issue
