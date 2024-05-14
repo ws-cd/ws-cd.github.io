@@ -42,7 +42,6 @@ The followings are a few options you can make for bot reply.
 ### Multiple bot responses
 We can add multiple lines of texts to the bot response node or add another bot response node after the current one. 
 
-The bot response node adds multiple text responses, as shown in the figure.
 ![flow-03.png](/assets/images/tutorial/flow/flow-03.png)
 
 Another bot response node can be added after the current one.
