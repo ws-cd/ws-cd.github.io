@@ -1,10 +1,13 @@
 ---
-layout: en title: IT Helpdesk parent: Quick Start nav_order: 2
+layout: en 
+title: IT Helpdesk 
+parent: Quick Start 
+nav_order: 2
 ---
 
 # IT Helpdesk
 
-We can expand [the Website Asssitant](/docs/quick_start/knowledge_base/) to include a few IT Helpdesk functions. For
+We can expand [the Website Assistant](/docs/quick_start/knowledge_base/) to include a few IT Helpdesk functions. For
 example,
 
 - Automatically display user's name
@@ -13,7 +16,7 @@ example,
 
 ## Create a Flow
 
-The flow asks for the user' email address and his question and then generates a ticket.
+The flow asks for the user's email address and his question and then generates a ticket.
 
 ![img.png](/assets/images/quick_start/flow/flow-01.png)
 
