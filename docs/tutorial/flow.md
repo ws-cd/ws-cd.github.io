@@ -11,7 +11,9 @@ Click `Flows` in the left navigation pane to add a new dialog flow.  Enter the f
 ![flow-01.png](/assets/images/tutorial/flow/flow-01.png)
 
 ## A GPT node
-The fastest way to create a conversational bot is providing a GPT script, e.g., 
+The fastest way to create a conversational bot is providing a GPT script, e.g.,
+
+[GPT Flow](/docs/tutorial/gpt_flow)
 
 ## A bot node
 Click and select `Add Bot Node` or `Edit Node` from the pop-up menu. 
