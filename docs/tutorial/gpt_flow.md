@@ -79,4 +79,5 @@ Fill in the pop-up dialog box.
 ![gpt-flow-03.png](/assets/images/tutorial/gpt_flow/gpt-flow-03.png)
 
 ## Run the GPT flow
- 
+
+![gpt-flow-04.png](/assets/images/tutorial/gpt_flow/gpt-flow-04.png)
