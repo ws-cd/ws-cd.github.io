@@ -86,14 +86,14 @@ After the form is filled, the `Complete` node follows.
 ![form-10.png](/assets/images/tutorial/form/form-10.png)
 ![form-11.png](/assets/images/tutorial/form/form-11.png)
 
-## Test run
+## Run
 ![form-12.png](/assets/images/tutorial/form/form-12.png)
----
 
-# FAQ
 
-## Can I fill multiple slots in one sentence?
-Yes, we support fill multiple slots in one sentence.
+## FAQ
+
+### Can I fill multiple slots in one sentence?
+Yes, multiple slots in one sentence are supported.
 Example: 
 ```text
 Bot : Hello!
