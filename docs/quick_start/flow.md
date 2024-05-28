@@ -5,8 +5,6 @@ parent: Quick Start
 nav_order: 2
 ---
 
-# IT Helpdesk
-
 We can expand [the Website Assistant](/docs/quick_start/knowledge_base/) to include a few IT Helpdesk functions. For
 example,
 
