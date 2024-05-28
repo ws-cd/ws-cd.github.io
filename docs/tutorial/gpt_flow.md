@@ -63,7 +63,7 @@ Click Flows in the left navigation pane to add a new flow. Enter the flow name i
 ![gpt-flow-02.png](/assets/images/tutorial/gpt_flow/gpt-flow-02.png)
 
 Fill in the pop-up dialog box.
-<!---
+<!--
 - Name: 
 
 > hospital registration service
