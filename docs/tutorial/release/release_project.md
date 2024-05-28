@@ -83,5 +83,5 @@ When you need to access the mobile terminal, you can experience it by accessing 
         </html>  '  
     ```
 
-2. When you open the website, there will be a chatbox on the lower right corner of the website. Click Open to start a chat session. 
+2. When you open the website, there will be a chatbox on the lower right corner of the website. Click it to start a chat session. 
    ![release_web_script_demo_1.jpg](/assets/images/tutorial/release/project_release7.jpg)
