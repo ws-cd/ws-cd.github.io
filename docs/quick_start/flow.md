@@ -39,7 +39,7 @@ name : PromptAI-User
 email: info@promptai.us
 ```
 
-2、Set `name` and `email` respectively in [Slot default value](/docs/tutorial/slot_config/#default-value)
+2. Set `name` and `email` respectively in [Slot default value](/docs/tutorial/slot_config/#default-value)
 
 * The configured key needs to be consistent with the key written to Local Storage.
 
@@ -65,14 +65,14 @@ work order.
 
 ### Fallback connects to Service Flow
 
-1. Click `Overview-Fallback-Buttons for fallbacks-Add` to add Service Flow button to fallback.
+Click `Overview-Fallback-Buttons for fallbacks-Add` to add Service Flow button to fallback.
 
 ![img.png](/assets/images/quick_start/flow/flow-03.png)
 
-2. Modify Service Flow and go directly to submit tickets From
+Modify Service Flow and go directly to submit tickets
    ![img_1.png](/assets/images/quick_start/flow/flow-04.png)
 
-3. Modify the Bot node to display `name` and `email`
+Modify the Bot node to display `name` and `email`
    ![img.png](/assets/images/quick_start/flow/flow-05.png)
 
 ## Run
