@@ -5,7 +5,7 @@ parent: Developer's Guide
 nav_order: 4
 ---
 ## GPT Flow
-The fastest way to create a conversational bot is providing a GPT script. Here are a few examples. 
+The fastest way to create a conversational bot is providing a GPT prompt. Here are a few examples. 
 
 ### Cases - Prompt
 
