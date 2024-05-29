@@ -20,40 +20,26 @@ PromptAI provides an intuitive conversation design tool for fast bot creation. I
 Here is an example of creating the first PromptAI chatbot. 
 <!-- Here is an example of creating the first chatbot in the cloud version. (Local version examples or more examples can be found [here](/docs/example/)) -->
 
-<!-- 1. 创建第一个项目 -->
 1. Create the first project.
-![overview0.png](/assets/images/overview/get-start-01.png)
-<!-- 2. 点击完善第一个Bot节点 -->
-2. Create the first dialog flow.
-![overview1.png](/assets/images/overview/get-start-02.png)
-<!-- 3. 点击完善第一个Bot节点  -->
-3. Click to complete the flow.
-![overview2.png](/assets/images/overview/get-start-03.png)
-<!-- 4. 创建一个User节点。 -->
-4. Add a user (intent) node where a user may encounter an IT issue.
-![overview3.png](/assets/images/overview/get-start-04.png)
-<!-- 5. 创建一个Bot节点。 -->
-5. Add a form node to collect the user's email address and his issue.
-![overview4.png](/assets/images/overview/get-start-05.png)
-![overview4.png](/assets/images/overview/get-start-06.png)
-<!-- 6. 至此，我们完成了第一个简单的对话流图，现在我们点击右上角“Debug Run”开始调试运行。 -->
-6. Add a bot completion node.
-![overview4.png](/assets/images/overview/get-start-07.png)
-7. At this point, we completed the first dialogue flow. Now, let's click the "Debug Run" button on the upper right corner to start debugging.
-![overview5.png](/assets/images/overview/get-start-08.png)
-<!-- 7. 等待链接完成，测试我们的流图。 // TODO 这不能正常对话，稍后更新 -->
-7. Wait for the connection to complete and test your flow.
-![overview6.png](/assets/images/overview/get-start-09.png)
+![overview1.png](/assets/images/overview/gpt-flow-01.png)
+2. Create the first GPT Flow.
+![overview2.png](/assets/images/overview/gpt-flow-02.png)
+3. Click to complete the GPT Flow.
+![overview3.png](/assets/images/overview/gpt-flow-03.png)
+4. At this point, we completed the first dialogue flow. Now, let's click the "Debug Run" button on the upper right corner to start debugging.
+![overview4.png](/assets/images/overview/gpt-flow-04.png)
+5. Wait for the connection to complete and test your flow.
+![overview5.png](/assets/images/overview/gpt-flow-05.png)
 
 <!-- ## 快速发布 -->
 ## Publish
 <!-- 选择我们刚刚测试运行好的流图，进行发布。发布之后，我们可以看见web内嵌链接，和移动端链接。更多发布相关内容请看这里。 -->
 Select the flow that you just tested, then proceed with publishing. After publishing, you can see the web-embedded link and the mobile link. For more information on publishing, please refer to [this section](/docs/tutorial/release/release_project).
-![overview7.png](/assets/images/overview/get-start-10.png)
+![overview6.png](/assets/images/overview/gpt-flow-06.png)
 
 <!-- ## 对话历史和Dashboard -->
 ## Conversation History and Dashboard
 <!-- 对话历史纪录了，当前项目的所有对话信息。 -->
 The conversation history records the conversation information for the current project.
-![overview8.png](/assets/images/overview/get-start-11.png)
-![overview9.png](/assets/images/overview/get-start-12.png)
+![overview7.png](/assets/images/overview/gpt-flow-07.png)
+![overview8.png](/assets/images/overview/gpt-flow-08.png)
